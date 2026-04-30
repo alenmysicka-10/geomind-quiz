@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="referrer" content="no-referrer">
+  <title>GeoMind – Světový kvíz</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Inter:wght@400;500;600;700&family=Cinzel:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <main class="shell">
+
+    <!-- TOP BAR -->
+    <header class="topbar">
+      <div class="logo">
+        <svg width="34" height="34" viewBox="0 0 34 34" fill="none">
+          <circle cx="17" cy="17" r="15" stroke="#2563eb" stroke-width="2" fill="none"/>
+          <ellipse cx="17" cy="17" rx="7" ry="15" stroke="#2563eb" stroke-width="1.5" fill="none"/>
+          <line x1="2" y1="17" x2="32" y2="17" stroke="#2563eb" stroke-width="1.5" opacity="0.5"/>
+          <line x1="5" y1="10" x2="29" y2="10" stroke="#2563eb" stroke-width="1" opacity="0.35"/>
+          <line x1="5" y1="24" x2="29" y2="24" stroke="#2563eb" stroke-width="1" opacity="0.35"/>
+        </svg>
+        <div>
+          <div class="logo-name">GeoMind</div>
+          <div class="logo-tagline">WORLD ATLAS QUIZ</div>
+        </div>
+      </div>
+      <div class="topbar-right">
+        <div class="stat-chip" id="score-pill">
+          <span class="chip-lbl">Skóre</span>
+          <span class="chip-val" id="score-val">0</span>
+        </div>
+        <div class="stat-chip" id="round-pill">
+          <span class="chip-lbl">Kolo</span>
+          <span class="chip-val" id="round-val">0/11</span>
+        </div>
+        <div class="stat-chip timer-chip" id="timer-pill">
+          <span class="chip-lbl">Čas</span>
+          <span class="chip-val" id="timer-val">30</span>
+        </div>
+        <button class="lang-btn" id="lang-btn">
+          <span id="lang-flag">🇬🇧</span>
+          <span id="lang-label">EN</span>
+        </button>
+      </div>
+    </header>
+
+    <!-- COUNTRY BANNER -->
+    <div class="country-banner hidden" id="country-banner">
+      <span id="country-flag-banner"></span>
+      <span id="country-name-banner"></span>
+    </div>
+
+    <!-- ═══════════════ START SCREEN ═══════════════ -->
+    <section id="start-screen" class="screen active">
+
+      <div class="hero">
+        <h1 class="hero-title" id="start-title">GeoMind</h1>
+        <p class="hero-sub" id="start-subtitle">Otestuj své zeměpisné a historické znalosti o světě</p>
+      </div>
+
+      <div class="section-hd" id="continent-label">Vyber světadíl</div>
+
+      <div class="continent-grid" id="continent-grid">
+        <!-- filled by JS -->
+      </div>
+
+      <div class="section-hd" id="features-label">Co tě čeká v každém kole</div>
+      <div class="features-list" id="features-list"></div>
+
+      <button class="start-cta" id="start-btn">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+        <span id="start-btn-text">Zahájit expedici</span>
+      </button>
+
+    </section>
+
+    <!-- ═══════════════ QUIZ SCREEN ═══════════════ -->
+    <section id="quiz-screen" class="screen">
+      <div class="quiz-card" id="quiz-card">
+
+        <div class="prog-row">
+          <div class="prog-track"><div class="prog-fill" id="progress-fill"></div></div>
+          <span class="prog-lbl" id="progress-label">0/11</span>
+        </div>
+
+        <div class="q-meta">
+          <span class="cat-tag" id="cat-badge"></span>
+          <span class="streak-tag hidden" id="streak-badge">🔥 <span id="streak-num">0</span></span>
+        </div>
+
+        <h2 class="q-title" id="q-title"></h2>
+        <p class="q-body" id="q-text"></p>
+
+        <div class="visual-zone" id="visual-zone"></div>
+
+        <div class="hint-box hidden" id="hint-card">
+          <span class="hint-ico">💡</span>
+          <span id="hint-text"></span>
+        </div>
+
+        <div class="opts-grid" id="options-wrap"></div>
+
+        <div class="feedback hidden" id="feedback-bar">
+          <span id="fb-icon"></span>
+          <span id="fb-text"></span>
+        </div>
+
+        <button class="next-btn hidden" id="next-btn">
+          <span id="next-btn-text">Další otázka</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </button>
+
+      </div>
+    </section>
+
+    <!-- ═══════════════ RESULT SCREEN ═══════════════ -->
+    <section id="result-screen" class="screen">
+      <div class="quiz-card">
+
+        <div class="result-hero">
+          <div class="result-medal" id="medal-wrap">🏆</div>
+          <h2 class="result-title" id="result-title">Výsledek expedice</h2>
+          <div class="result-score">
+            <span class="score-big" id="big-score">0</span>
+            <span class="score-denom" id="big-denom">/11</span>
+          </div>
+          <p class="result-msg" id="result-msg"></p>
+        </div>
+
+        <div class="summary" id="summary-grid"></div>
+
+        <button class="start-cta" id="restart-btn">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/></svg>
+          <span id="restart-btn-text">Nová expedice</span>
+        </button>
+
+      </div>
+    </section>
+
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
