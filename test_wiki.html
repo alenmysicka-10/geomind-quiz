@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset="UTF-8"><title>Test Wikipedia API</title></head>
+<body>
+<h2>Test Wikipedia API pro fotky</h2>
+<p id="status">Testuji...</p>
+<div id="results"></div>
+
+<script>
+const tests = [
+  {name: "Helsinki Cathedral", wiki: "Helsinki_Cathedral"},
+  {name: "Colosseum", wiki: "Colosseum"},
+  {name: "Eiffel Tower", wiki: "Eiffel_Tower"},
+  {name: "Bojnice Castle", wiki: "Bojnice_Castle"},
+  {name: "Knin Fortress", wiki: "Knin_Fortress"},
+];
+
+async function test() {
+  const div = document.getElementById('results');
+  for (const t of tests) {
+    try {
+      const r = await fetch(`https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(t.wiki)}`, {
+        headers: {Accept: "application/json"}
+      });
+      const d = await r.json();
+      const thumb = d.thumbnail?.source || "NO THUMBNAIL";
+      
+      div.innerHTML += `<div style="margin:10px;border:1px solid #ccc;padding:10px">
+        <b>${t.name}</b>: ${r.status}<br>
+        Thumbnail: ${thumb.substring(0,80)}<br>
+        ${thumb !== "NO THUMBNAIL" ? `<img src="${thumb.replace(/\/\d+px-/, '/320px-')}" style="max-width:300px;max-height:200px">` : '❌ Žádná fotka'}
+      </div>`;
+    } catch(e) {
+      div.innerHTML += `<div style="color:red"><b>${t.name}</b>: ERROR - ${e.message}</div>`;
+    }
+  }
+  document.getElementById('status').textContent = 'Hotovo!';
+}
+test();
+</script>
+</body>
+</html>

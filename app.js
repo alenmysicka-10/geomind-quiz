@@ -3354,29 +3354,42 @@ function buildSet(country, setIdx) {
 }
 
 // ── Render Question ─────────────────────────────────────────────────────────
-// ── Load landmark photo from Wikipedia API ──────────────────────────────────
+// ── Load landmark photo (Wikipedia API → fallback img) ───────────────────────
 function loadLandmarkPhoto(wikiTitle, fallbackImg) {
-  const img = document.querySelector(".lm-photo");
+  var img = document.querySelector(".lm-photo");
   if (!img) return;
 
+  function showFallback() {
+    if (fallbackImg) {
+      img.src = fallbackImg;
+    }
+  }
+
   if (wikiTitle) {
-    const apiUrl = "https://en.wikipedia.org/api/rest_v1/page/summary/" + encodeURIComponent(wikiTitle);
-    fetch(apiUrl)
-      .then(function(r) { return r.json(); })
-      .then(function(d) {
-        var src = d && d.thumbnail && d.thumbnail.source;
-        if (src) {
-          src = src.replace(/\/\d+px-/, "/480px-");
-          img.src = src;
-        } else if (fallbackImg) {
-          img.src = fallbackImg;
-        }
-      })
-      .catch(function() {
-        if (fallbackImg) img.src = fallbackImg;
-      });
-  } else if (fallbackImg) {
-    img.src = fallbackImg;
+    // Use Wikipedia REST API - works from any domain including GitHub Pages
+    var apiUrl = "https://en.wikipedia.org/api/rest_v1/page/summary/" + encodeURIComponent(wikiTitle);
+    fetch(apiUrl, {
+      headers: { "Accept": "application/json" }
+    })
+    .then(function(r) {
+      if (!r.ok) throw new Error("HTTP " + r.status);
+      return r.json();
+    })
+    .then(function(d) {
+      var src = d && d.thumbnail && d.thumbnail.source;
+      if (src) {
+        // Get 480px version
+        src = src.replace(/\/\d+px-/, "/480px-");
+        img.src = src;
+      } else {
+        showFallback();
+      }
+    })
+    .catch(function() {
+      showFallback();
+    });
+  } else {
+    showFallback();
   }
 }
 
