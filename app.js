@@ -2028,130 +2028,130 @@ const COUNTRIES = [
 // built: year construction started, finished: year completed
 const LANDMARKS = {
   CZ:[
-    {name:"Pražský hrad",              en:"Prague Castle",             built:870,  finished:1929, img:"https://images.unsplash.com/photo-1541849546-216549ae216d?w=480&q=80&auto=format&fit=crop"},
-    {name:"Karlův most",               en:"Charles Bridge",            built:1357, finished:1402, img:"https://images.unsplash.com/photo-1592906209472-a36b1f3782ef?w=480&q=80&auto=format&fit=crop"},
-    {name:"Staroměstský orloj",        en:"Prague Astronomical Clock", built:1410, finished:1490, img:"https://images.unsplash.com/photo-1519677100203-a0e668c92439?w=480&q=80&auto=format&fit=crop"},
-    {name:"Katedrála sv. Víta",        en:"St. Vitus Cathedral",       built:1344, finished:1929, img:"https://images.unsplash.com/photo-1548625149-720754874de6?w=480&q=80&auto=format&fit=crop"},
-    {name:"Lednicko-valtický areál",   en:"Lednice–Valtice Cultural Landscape", built:1219, finished:1858, img:"https://images.unsplash.com/photo-1418985991508-e47386d96a71?w=480&q=80&auto=format&fit=crop"},
-    {name:"Kutná Hora — kostel sv. Barbory", en:"St. Barbara's Church Kutná Hora", built:1388, finished:1905, img:"https://images.unsplash.com/photo-1548625149-720754874de6?w=480&q=80&auto=format&fit=crop"},
-    {name:"Hrad Karlštejn",            en:"Karlštejn Castle",          built:1348, finished:1365, img:"https://images.unsplash.com/photo-1534430480872-2b5a9f6a4b3e?w=480&q=80&auto=format&fit=crop"},
-    {name:"Telč — historické centrum", en:"Historic Centre of Telč",   built:1530, finished:1560, img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
-    {name:"Třebíčská bazilika",        en:"Třebíč Basilica",           built:1101, finished:1240, img:"https://images.unsplash.com/photo-1548625149-720754874de6?w=480&q=80&auto=format&fit=crop"},
-    {name:"Kroměřížský zámek",         en:"Kroměříž Chateau",          built:1686, finished:1752, img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
+    {name:"Pražský hrad",              en:"Prague Castle",built:870,finished:1929,wiki:"Prague_Castle",img:"https://images.unsplash.com/photo-1541849546-216549ae216d?w=480&q=80&auto=format&fit=crop"},
+    {name:"Karlův most",               en:"Charles Bridge",built:1357,finished:1402,wiki:"Charles_Bridge",img:"https://images.unsplash.com/photo-1592906209472-a36b1f3782ef?w=480&q=80&auto=format&fit=crop"},
+    {name:"Staroměstský orloj",        en:"Prague Astronomical Clock",built:1410,finished:1490,wiki:"Prague_astronomical_clock",img:"https://images.unsplash.com/photo-1519677100203-a0e668c92439?w=480&q=80&auto=format&fit=crop"},
+    {name:"Katedrála sv. Víta",        en:"St. Vitus Cathedral",built:1344,finished:1929,wiki:"St._Vitus_Cathedral",img:"https://images.unsplash.com/photo-1548625149-720754874de6?w=480&q=80&auto=format&fit=crop"},
+    {name:"Lednicko-valtický areál",   en:"Lednice–Valtice Cultural Landscape",built:1219,finished:1858,wiki:"Lednice%E2%80%93Valtice_Cultural_Landscape",img:"https://images.unsplash.com/photo-1418985991508-e47386d96a71?w=480&q=80&auto=format&fit=crop"},
+    {name:"Kutná Hora — kostel sv. Barbory", en:"St. Barbara's Church Kutná Hora",built:1388,finished:1905,wiki:"Cathedral_of_Saint_Barbara,_Kutná_Hora",img:"https://images.unsplash.com/photo-1548625149-720754874de6?w=480&q=80&auto=format&fit=crop"},
+    {name:"Hrad Karlštejn",            en:"Karlštejn Castle",built:1348,finished:1365,wiki:"Karlštejn_Castle",img:"https://images.unsplash.com/photo-1534430480872-2b5a9f6a4b3e?w=480&q=80&auto=format&fit=crop"},
+    {name:"Telč — historické centrum", en:"Historic Centre of Telč",built:1530,finished:1560,wiki:"Telč",img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
+    {name:"Třebíčská bazilika",        en:"Třebíč Basilica",built:1101,finished:1240,wiki:"Třebíč_Basilica",img:"https://images.unsplash.com/photo-1548625149-720754874de6?w=480&q=80&auto=format&fit=crop"},
+    {name:"Kroměřížský zámek",         en:"Kroměříž Chateau",built:1686,finished:1752,wiki:"Kroměříž_Castle",img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
   ],
   DE:[
-    {name:"Braniborská brána",         en:"Brandenburg Gate",          built:1788, finished:1791, img:"https://images.unsplash.com/photo-1560969184-10fe8719e047?w=480&q=80&auto=format&fit=crop"},
-    {name:"Norimberský hrad",          en:"Nuremberg Castle",          built:1050, finished:1571, img:"https://images.unsplash.com/photo-1534430480872-2b5a9f6a4b3e?w=480&q=80&auto=format&fit=crop"},
-    {name:"Kolínský dóm",              en:"Cologne Cathedral",         built:1248, finished:1880, img:"https://images.unsplash.com/photo-1588315029754-2dd089d39a1a?w=480&q=80&auto=format&fit=crop"},
-    {name:"Neuschwanstein",            en:"Neuschwanstein Castle",     built:1869, finished:1892, img:"https://images.unsplash.com/photo-1467269204594-9661b134dd2b?w=480&q=80&auto=format&fit=crop"},
-    {name:"Berlínská zeď — Memorial", en:"Berlin Wall Memorial",       built:1961, finished:1961, img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
-    {name:"Říšský sněm (Reichstag)",   en:"Reichstag Building",        built:1884, finished:1999, img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
-    {name:"Heidelberský zámek",        en:"Heidelberg Castle",         built:1214, finished:1764, img:"https://images.unsplash.com/photo-1534430480872-2b5a9f6a4b3e?w=480&q=80&auto=format&fit=crop"},
-    {name:"Sanssouci",                 en:"Sanssouci Palace",          built:1745, finished:1747, img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
-    {name:"Wartburg",                  en:"Wartburg Castle",           built:1067, finished:1080, img:"https://images.unsplash.com/photo-1534430480872-2b5a9f6a4b3e?w=480&q=80&auto=format&fit=crop"},
-    {name:"Drážďanská opera",          en:"Dresden Semperoper",        built:1838, finished:1878, img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
+    {name:"Braniborská brána",         en:"Brandenburg Gate",built:1788,finished:1791,wiki:"Brandenburg_Gate",img:"https://images.unsplash.com/photo-1560969184-10fe8719e047?w=480&q=80&auto=format&fit=crop"},
+    {name:"Norimberský hrad",          en:"Nuremberg Castle",built:1050,finished:1571,wiki:"Nuremberg_Castle",img:"https://images.unsplash.com/photo-1534430480872-2b5a9f6a4b3e?w=480&q=80&auto=format&fit=crop"},
+    {name:"Kolínský dóm",              en:"Cologne Cathedral",built:1248,finished:1880,wiki:"Cologne_Cathedral",img:"https://images.unsplash.com/photo-1588315029754-2dd089d39a1a?w=480&q=80&auto=format&fit=crop"},
+    {name:"Neuschwanstein",            en:"Neuschwanstein Castle",built:1869,finished:1892,wiki:"Neuschwanstein_Castle",img:"https://images.unsplash.com/photo-1467269204594-9661b134dd2b?w=480&q=80&auto=format&fit=crop"},
+    {name:"Berlínská zeď — Memorial", en:"Berlin Wall Memorial",built:1961,finished:1961,wiki:"Berlin_Wall_Memorial",img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
+    {name:"Říšský sněm (Reichstag)",   en:"Reichstag Building",built:1884,finished:1999,wiki:"Reichstag_building",img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
+    {name:"Heidelberský zámek",        en:"Heidelberg Castle",built:1214,finished:1764,wiki:"Heidelberg_Castle",img:"https://images.unsplash.com/photo-1534430480872-2b5a9f6a4b3e?w=480&q=80&auto=format&fit=crop"},
+    {name:"Sanssouci",                 en:"Sanssouci Palace",built:1745,finished:1747,wiki:"Sanssouci",img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
+    {name:"Wartburg",                  en:"Wartburg Castle",built:1067,finished:1080,wiki:"Wartburg_Castle",img:"https://images.unsplash.com/photo-1534430480872-2b5a9f6a4b3e?w=480&q=80&auto=format&fit=crop"},
+    {name:"Drážďanská opera",          en:"Dresden Semperoper",built:1838,finished:1878,wiki:"Semperoper",img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
   ],
   FR:[
-    {name:"Eiffelova věž",             en:"Eiffel Tower",              built:1887, finished:1889, img:"https://images.unsplash.com/photo-1511739001486-6bfe10ce785f?w=480&q=80&auto=format&fit=crop"},
-    {name:"Louvre",                    en:"Louvre Museum",             built:1190, finished:1989, img:"https://images.unsplash.com/photo-1564507592333-c60657eea523?w=480&q=80&auto=format&fit=crop"},
-    {name:"Notre-Dame de Paris",       en:"Notre-Dame de Paris",       built:1163, finished:1345, img:"https://images.unsplash.com/photo-1530097811955-fca5cee4d246?w=480&q=80&auto=format&fit=crop"},
-    {name:"Versailleský palác",        en:"Palace of Versailles",      built:1661, finished:1710, img:"https://images.unsplash.com/photo-1492321936769-b49830bc1d1e?w=480&q=80&auto=format&fit=crop"},
-    {name:"Mont Saint-Michel",         en:"Mont Saint-Michel",         built:709,  finished:1523, img:"https://images.unsplash.com/photo-1568438350562-2cae6d394ad0?w=480&q=80&auto=format&fit=crop"},
-    {name:"Sacré-Cœur",               en:"Sacré-Cœur Basilica",       built:1875, finished:1914, img:"https://images.unsplash.com/photo-1550340499-a6c60fc8287c?w=480&q=80&auto=format&fit=crop"},
-    {name:"Pont du Gard",              en:"Pont du Gard",              built:40,   finished:60,   img:"https://images.unsplash.com/photo-1559181567-c3fd75c7e0bd?w=480&q=80&auto=format&fit=crop"},
-    {name:"Carcassonne",               en:"Carcassonne Citadel",       built:100,  finished:1285, img:"https://images.unsplash.com/photo-1534430480872-2b5a9f6a4b3e?w=480&q=80&auto=format&fit=crop"},
-    {name:"Palais des Papes",          en:"Palace of the Popes",       built:1335, finished:1364, img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
-    {name:"Triomfální oblouk",         en:"Arc de Triomphe",           built:1806, finished:1836, img:"https://images.unsplash.com/photo-1541961017774-22349e4a1262?w=480&q=80&auto=format&fit=crop"},
+    {name:"Eiffelova věž",             en:"Eiffel Tower",built:1887,finished:1889,wiki:"Eiffel_Tower",img:"https://images.unsplash.com/photo-1511739001486-6bfe10ce785f?w=480&q=80&auto=format&fit=crop"},
+    {name:"Louvre",                    en:"Louvre Museum",built:1190,finished:1989,wiki:"Louvre",img:"https://images.unsplash.com/photo-1564507592333-c60657eea523?w=480&q=80&auto=format&fit=crop"},
+    {name:"Notre-Dame de Paris",       en:"Notre-Dame de Paris",built:1163,finished:1345,wiki:"Notre-Dame_de_Paris",img:"https://images.unsplash.com/photo-1530097811955-fca5cee4d246?w=480&q=80&auto=format&fit=crop"},
+    {name:"Versailleský palác",        en:"Palace of Versailles",built:1661,finished:1710,wiki:"Palace_of_Versailles",img:"https://images.unsplash.com/photo-1492321936769-b49830bc1d1e?w=480&q=80&auto=format&fit=crop"},
+    {name:"Mont Saint-Michel",         en:"Mont Saint-Michel",built:709,finished:1523,wiki:"Mont-Saint-Michel",img:"https://images.unsplash.com/photo-1568438350562-2cae6d394ad0?w=480&q=80&auto=format&fit=crop"},
+    {name:"Sacré-Cœur",               en:"Sacré-Cœur Basilica",built:1875,finished:1914,wiki:"Sacré-Cœur,_Paris",img:"https://images.unsplash.com/photo-1550340499-a6c60fc8287c?w=480&q=80&auto=format&fit=crop"},
+    {name:"Pont du Gard",              en:"Pont du Gard",built:40,finished:60,wiki:"Pont_du_Gard",img:"https://images.unsplash.com/photo-1559181567-c3fd75c7e0bd?w=480&q=80&auto=format&fit=crop"},
+    {name:"Carcassonne",               en:"Carcassonne Citadel",built:100,finished:1285,wiki:"Carcassonne",img:"https://images.unsplash.com/photo-1534430480872-2b5a9f6a4b3e?w=480&q=80&auto=format&fit=crop"},
+    {name:"Palais des Papes",          en:"Palace of the Popes",built:1335,finished:1364,wiki:"Palace_of_the_Popes",img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
+    {name:"Triomfální oblouk",         en:"Arc de Triomphe",built:1806,finished:1836,wiki:"Arc_de_Triomphe",img:"https://images.unsplash.com/photo-1541961017774-22349e4a1262?w=480&q=80&auto=format&fit=crop"},
   ],
   IT:[
-    {name:"Koloseum",                  en:"Colosseum",                 built:70,   finished:80,   img:"https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=480&q=80&auto=format&fit=crop"},
-    {name:"Šikmá věž v Pise",          en:"Leaning Tower of Pisa",     built:1173, finished:1372, img:"https://images.unsplash.com/photo-1541370976299-4d24be63e9d7?w=480&q=80&auto=format&fit=crop"},
-    {name:"Benátky — Grand Canal",     en:"Venice Grand Canal",        built:421,  finished:1500, img:"https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?w=480&q=80&auto=format&fit=crop"},
-    {name:"Pantheon",                  en:"Pantheon Rome",             built:27,   finished:125,  img:"https://images.unsplash.com/photo-1531572753322-ad063cecc140?w=480&q=80&auto=format&fit=crop"},
-    {name:"Sixtinská kaple",           en:"Sistine Chapel",            built:1473, finished:1481, img:"https://images.unsplash.com/photo-1531572753322-ad063cecc140?w=480&q=80&auto=format&fit=crop"},
-    {name:"Bazilika sv. Petra",        en:"St. Peter's Basilica",      built:1506, finished:1626, img:"https://images.unsplash.com/photo-1531572753322-ad063cecc140?w=480&q=80&auto=format&fit=crop"},
-    {name:"Trevi fontána",             en:"Trevi Fountain",            built:1732, finished:1762, img:"https://images.unsplash.com/photo-1573152143286-0c422b4d2175?w=480&q=80&auto=format&fit=crop"},
-    {name:"Pompeje",                   en:"Pompeii",                   built:-600, finished:-79,  img:"https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=480&q=80&auto=format&fit=crop"},
-    {name:"Palác Dóžat",               en:"Doge's Palace",             built:810,  finished:1424, img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
-    {name:"Matera — Sassi",            en:"Sassi di Matera",           built:-7000,finished:700,  img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
+    {name:"Koloseum",                  en:"Colosseum",built:70,finished:80,wiki:"Colosseum",img:"https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=480&q=80&auto=format&fit=crop"},
+    {name:"Šikmá věž v Pise",          en:"Leaning Tower of Pisa",built:1173,finished:1372,wiki:"Leaning_Tower_of_Pisa",img:"https://images.unsplash.com/photo-1541370976299-4d24be63e9d7?w=480&q=80&auto=format&fit=crop"},
+    {name:"Benátky — Grand Canal",     en:"Venice Grand Canal",built:421,finished:1500,wiki:"Grand_Canal_(Venice)",img:"https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?w=480&q=80&auto=format&fit=crop"},
+    {name:"Pantheon",                  en:"Pantheon Rome",built:27,finished:125,wiki:"Pantheon,_Rome",img:"https://images.unsplash.com/photo-1531572753322-ad063cecc140?w=480&q=80&auto=format&fit=crop"},
+    {name:"Sixtinská kaple",           en:"Sistine Chapel",built:1473,finished:1481,wiki:"Sistine_Chapel",img:"https://images.unsplash.com/photo-1531572753322-ad063cecc140?w=480&q=80&auto=format&fit=crop"},
+    {name:"Bazilika sv. Petra",        en:"St. Peter's Basilica",built:1506,finished:1626,wiki:"St._Peter%27s_Basilica",img:"https://images.unsplash.com/photo-1531572753322-ad063cecc140?w=480&q=80&auto=format&fit=crop"},
+    {name:"Trevi fontána",             en:"Trevi Fountain",built:1732,finished:1762,wiki:"Trevi_Fountain",img:"https://images.unsplash.com/photo-1573152143286-0c422b4d2175?w=480&q=80&auto=format&fit=crop"},
+    {name:"Pompeje",                   en:"Pompeii",built:-600,finished:-79,wiki:"Pompeii",img:"https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=480&q=80&auto=format&fit=crop"},
+    {name:"Palác Dóžat",               en:"Doge's Palace",built:810,finished:1424,wiki:"Doge%27s_Palace",img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
+    {name:"Matera — Sassi",            en:"Sassi di Matera",built:-7000,finished:700,wiki:"Sassi_di_Matera",img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
   ],
   ES:[
-    {name:"Sagrada Família",           en:"Sagrada Família",           built:1882, finished:2026, img:"https://images.unsplash.com/photo-1583779457090-9f8b67ade4d5?w=480&q=80&auto=format&fit=crop"},
-    {name:"Alhambra",                  en:"Alhambra",                  built:889,  finished:1354, img:"https://images.unsplash.com/photo-1591117207239-788bf8de6c3b?w=480&q=80&auto=format&fit=crop"},
-    {name:"Královský palác Madrid",    en:"Royal Palace of Madrid",    built:1738, finished:1764, img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
-    {name:"Park Güell",                en:"Park Güell",                built:1900, finished:1914, img:"https://images.unsplash.com/photo-1539037116277-4db20889f2d4?w=480&q=80&auto=format&fit=crop"},
-    {name:"Katedrála v Seville",       en:"Seville Cathedral",         built:1402, finished:1506, img:"https://images.unsplash.com/photo-1548625149-720754874de6?w=480&q=80&auto=format&fit=crop"},
-    {name:"Mesquita de Córdoba",       en:"Mosque-Cathedral of Córdoba",built:784, finished:987,  img:"https://images.unsplash.com/photo-1564769625905-50e93615e769?w=480&q=80&auto=format&fit=crop"},
-    {name:"Guggenheim Bilbao",         en:"Guggenheim Museum Bilbao",  built:1993, finished:1997, img:"https://images.unsplash.com/photo-1535478044878-3ed83d5456ef?w=480&q=80&auto=format&fit=crop"},
-    {name:"Aqueduct of Segovia",       en:"Aqueduct of Segovia",       built:50,   finished:98,   img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
-    {name:"El Escorial",               en:"El Escorial",               built:1563, finished:1584, img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
-    {name:"Montserrat klášter",        en:"Montserrat Monastery",      built:1025, finished:1592, img:"https://images.unsplash.com/photo-1548625149-720754874de6?w=480&q=80&auto=format&fit=crop"},
+    {name:"Sagrada Família",           en:"Sagrada Família",built:1882,finished:2026,wiki:"Sagrada_Família",img:"https://images.unsplash.com/photo-1583779457090-9f8b67ade4d5?w=480&q=80&auto=format&fit=crop"},
+    {name:"Alhambra",                  en:"Alhambra",built:889,finished:1354,wiki:"Alhambra",img:"https://images.unsplash.com/photo-1591117207239-788bf8de6c3b?w=480&q=80&auto=format&fit=crop"},
+    {name:"Královský palác Madrid",    en:"Royal Palace of Madrid",built:1738,finished:1764,wiki:"Royal_Palace_of_Madrid",img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
+    {name:"Park Güell",                en:"Park Güell",built:1900,finished:1914,wiki:"Park_Güell",img:"https://images.unsplash.com/photo-1539037116277-4db20889f2d4?w=480&q=80&auto=format&fit=crop"},
+    {name:"Katedrála v Seville",       en:"Seville Cathedral",built:1402,finished:1506,wiki:"Seville_Cathedral",img:"https://images.unsplash.com/photo-1548625149-720754874de6?w=480&q=80&auto=format&fit=crop"},
+    {name:"Mesquita de Córdoba",       en:"Mosque-Cathedral of Córdoba",built:784,finished:987,wiki:"Mosque%E2%80%93Cathedral_of_Córdoba",img:"https://images.unsplash.com/photo-1564769625905-50e93615e769?w=480&q=80&auto=format&fit=crop"},
+    {name:"Guggenheim Bilbao",         en:"Guggenheim Museum Bilbao",built:1993,finished:1997,wiki:"Guggenheim_Museum_Bilbao",img:"https://images.unsplash.com/photo-1535478044878-3ed83d5456ef?w=480&q=80&auto=format&fit=crop"},
+    {name:"Aqueduct of Segovia",       en:"Aqueduct of Segovia",built:50,finished:98,wiki:"Aqueduct_of_Segovia",img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
+    {name:"El Escorial",               en:"El Escorial",built:1563,finished:1584,wiki:"El_Escorial",img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
+    {name:"Montserrat klášter",        en:"Montserrat Monastery",built:1025,finished:1592,wiki:"Montserrat_monastery",img:"https://images.unsplash.com/photo-1548625149-720754874de6?w=480&q=80&auto=format&fit=crop"},
   ],
   JP:[
-    {name:"Chrám Fushimi Inari",       en:"Fushimi Inari Shrine",      built:711,  finished:816,  img:"https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=480&q=80&auto=format&fit=crop"},
-    {name:"Hora Fudži",                en:"Mount Fuji",                built:-999, finished:-999, img:"https://images.unsplash.com/photo-1490806843957-31f4c9a91c65?w=480&q=80&auto=format&fit=crop"},
-    {name:"Chrám Kinkaku-ji",          en:"Kinkaku-ji Temple",         built:1397, finished:1955, img:"https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=480&q=80&auto=format&fit=crop"},
-    {name:"Hirošima — Genbaku Dome",   en:"Hiroshima Peace Memorial",  built:1915, finished:1915, img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
-    {name:"Tokio — Skytree",           en:"Tokyo Skytree",             built:2008, finished:2012, img:"https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=480&q=80&auto=format&fit=crop"},
-    {name:"Chrám Senso-ji",            en:"Senso-ji Temple",           built:645,  finished:645,  img:"https://images.unsplash.com/photo-1545569341-9eb8b30979d9?w=480&q=80&auto=format&fit=crop"},
-    {name:"Hrad Himeji",               en:"Himeji Castle",             built:1333, finished:1609, img:"https://images.unsplash.com/photo-1576675466969-38eeae4b41f6?w=480&q=80&auto=format&fit=crop"},
-    {name:"Itsukushima — torii",       en:"Itsukushima Shrine Torii",  built:593,  finished:1168, img:"https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=480&q=80&auto=format&fit=crop"},
-    {name:"Nara — Tōdai-ji",           en:"Tōdai-ji Temple Nara",      built:728,  finished:752,  img:"https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=480&q=80&auto=format&fit=crop"},
-    {name:"Tokijský palác",            en:"Tokyo Imperial Palace",     built:1457, finished:1968, img:"https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=480&q=80&auto=format&fit=crop"},
+    {name:"Chrám Fushimi Inari",       en:"Fushimi Inari Shrine",built:711,finished:816,wiki:"Fushimi_Inari-taisha",img:"https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=480&q=80&auto=format&fit=crop"},
+    {name:"Hora Fudži",                en:"Mount Fuji",built:-999,finished:-999,wiki:"Mount_Fuji",img:"https://images.unsplash.com/photo-1490806843957-31f4c9a91c65?w=480&q=80&auto=format&fit=crop"},
+    {name:"Chrám Kinkaku-ji",          en:"Kinkaku-ji Temple",built:1397,finished:1955,wiki:"Kinkaku-ji",img:"https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=480&q=80&auto=format&fit=crop"},
+    {name:"Hirošima — Genbaku Dome",   en:"Hiroshima Peace Memorial",built:1915,finished:1915,wiki:"Hiroshima_Peace_Memorial",img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
+    {name:"Tokio — Skytree",           en:"Tokyo Skytree",built:2008,finished:2012,wiki:"Tokyo_Skytree",img:"https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=480&q=80&auto=format&fit=crop"},
+    {name:"Chrám Senso-ji",            en:"Senso-ji Temple",built:645,finished:645,wiki:"Senso-ji",img:"https://images.unsplash.com/photo-1545569341-9eb8b30979d9?w=480&q=80&auto=format&fit=crop"},
+    {name:"Hrad Himeji",               en:"Himeji Castle",built:1333,finished:1609,wiki:"Himeji_Castle",img:"https://images.unsplash.com/photo-1576675466969-38eeae4b41f6?w=480&q=80&auto=format&fit=crop"},
+    {name:"Itsukushima — torii",       en:"Itsukushima Shrine Torii",built:593,finished:1168,wiki:"Itsukushima_Shrine",img:"https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=480&q=80&auto=format&fit=crop"},
+    {name:"Nara — Tōdai-ji",           en:"Tōdai-ji Temple Nara",built:728,finished:752,wiki:"Tōdai-ji",img:"https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=480&q=80&auto=format&fit=crop"},
+    {name:"Tokijský palác",            en:"Tokyo Imperial Palace",built:1457,finished:1968,wiki:"Tokyo_Imperial_Palace",img:"https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=480&q=80&auto=format&fit=crop"},
   ],
   IN:[
-    {name:"Tádž Mahal",               en:"Taj Mahal",                 built:1632, finished:1653, img:"https://images.unsplash.com/photo-1564507592333-c60657eea523?w=480&q=80&auto=format&fit=crop"},
-    {name:"Qutb Minar",               en:"Qutb Minar",                built:1193, finished:1386, img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
-    {name:"Amritsar — Zlatý chrám",   en:"Golden Temple Amritsar",    built:1581, finished:1604, img:"https://images.unsplash.com/photo-1548625149-720754874de6?w=480&q=80&auto=format&fit=crop"},
-    {name:"Hrad Červená pevnost",     en:"Red Fort Delhi",             built:1638, finished:1648, img:"https://images.unsplash.com/photo-1534430480872-2b5a9f6a4b3e?w=480&q=80&auto=format&fit=crop"},
-    {name:"Chrám Slunce Konárak",     en:"Konark Sun Temple",          built:1250, finished:1264, img:"https://images.unsplash.com/photo-1548625149-720754874de6?w=480&q=80&auto=format&fit=crop"},
-    {name:"Jaipur — Hawa Mahal",      en:"Hawa Mahal Jaipur",         built:1799, finished:1799, img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
-    {name:"Hampi — ruiny",            en:"Hampi Ruins",               built:1336, finished:1565, img:"https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=480&q=80&auto=format&fit=crop"},
-    {name:"Jeskynní chrámy Ajanta",   en:"Ajanta Caves",              built:-200, finished:480,  img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
-    {name:"Mysuru — palác Amba Vilas",en:"Mysore Palace",             built:1897, finished:1912, img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
-    {name:"India Gate",               en:"India Gate",                built:1921, finished:1931, img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
+    {name:"Tádž Mahal",               en:"Taj Mahal",built:1632,finished:1653,wiki:"Taj_Mahal",img:"https://images.unsplash.com/photo-1564507592333-c60657eea523?w=480&q=80&auto=format&fit=crop"},
+    {name:"Qutb Minar",               en:"Qutb Minar",built:1193,finished:1386,wiki:"Qutb_Minar",img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
+    {name:"Amritsar — Zlatý chrám",   en:"Golden Temple Amritsar",built:1581,finished:1604,wiki:"Golden_Temple",img:"https://images.unsplash.com/photo-1548625149-720754874de6?w=480&q=80&auto=format&fit=crop"},
+    {name:"Hrad Červená pevnost",     en:"Red Fort Delhi",built:1638,finished:1648,wiki:"Red_Fort",img:"https://images.unsplash.com/photo-1534430480872-2b5a9f6a4b3e?w=480&q=80&auto=format&fit=crop"},
+    {name:"Chrám Slunce Konárak",     en:"Konark Sun Temple",built:1250,finished:1264,wiki:"Konark_Sun_Temple",img:"https://images.unsplash.com/photo-1548625149-720754874de6?w=480&q=80&auto=format&fit=crop"},
+    {name:"Jaipur — Hawa Mahal",      en:"Hawa Mahal Jaipur",built:1799,finished:1799,wiki:"Hawa_Mahal",img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
+    {name:"Hampi — ruiny",            en:"Hampi Ruins",built:1336,finished:1565,wiki:"Hampi",img:"https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=480&q=80&auto=format&fit=crop"},
+    {name:"Jeskynní chrámy Ajanta",   en:"Ajanta Caves",built:-200,finished:480,wiki:"Ajanta_Caves",img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
+    {name:"Mysuru — palác Amba Vilas",en:"Mysore Palace",built:1897,finished:1912,wiki:"Mysore_Palace",img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
+    {name:"India Gate",               en:"India Gate",built:1921,finished:1931,wiki:"India_Gate",img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
   ],
   CN:[
-    {name:"Velká čínská zeď",          en:"Great Wall of China",       built:-700, finished:1644, img:"https://images.unsplash.com/photo-1508804185872-d7badad00f7d?w=480&q=80&auto=format&fit=crop"},
-    {name:"Zakázané město",            en:"Forbidden City",            built:1406, finished:1420, img:"https://images.unsplash.com/photo-1584450150050-b15a7a4e5b9c?w=480&q=80&auto=format&fit=crop"},
-    {name:"Terakotová armáda",         en:"Terracotta Army",           built:-246, finished:-208, img:"https://images.unsplash.com/photo-1591604129939-f1efa4d9f7fa?w=480&q=80&auto=format&fit=crop"},
-    {name:"Letní palác Peking",        en:"Summer Palace Beijing",     built:1750, finished:1764, img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
-    {name:"Pekinský olimpijský stadion",en:"Beijing National Stadium", built:2003, finished:2008, img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
-    {name:"Potala palác Lhasa",        en:"Potala Palace Lhasa",       built:637,  finished:1694, img:"https://images.unsplash.com/photo-1501179691627-eeaa65ea017c?w=480&q=80&auto=format&fit=crop"},
-    {name:"Machu Picchu — obdoba Huangshan", en:"Yellow Mountain Huangshan", built:-999, finished:-999, img:"https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=480&q=80&auto=format&fit=crop"},
-    {name:"Šanghajská věž",            en:"Shanghai Tower",            built:2008, finished:2015, img:"https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=480&q=80&auto=format&fit=crop"},
-    {name:"Jeskynní chrámy Yungang",   en:"Yungang Grottoes",          built:460,  finished:525,  img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
-    {name:"Tianmen — náměstí Peking",  en:"Tiananmen Square",          built:1415, finished:1420, img:"https://images.unsplash.com/photo-1584450150050-b15a7a4e5b9c?w=480&q=80&auto=format&fit=crop"},
+    {name:"Velká čínská zeď",          en:"Great Wall of China",built:-700,finished:1644,wiki:"Great_Wall_of_China",img:"https://images.unsplash.com/photo-1508804185872-d7badad00f7d?w=480&q=80&auto=format&fit=crop"},
+    {name:"Zakázané město",            en:"Forbidden City",built:1406,finished:1420,wiki:"Forbidden_City",img:"https://images.unsplash.com/photo-1584450150050-b15a7a4e5b9c?w=480&q=80&auto=format&fit=crop"},
+    {name:"Terakotová armáda",         en:"Terracotta Army",built:-246,finished:-208,wiki:"Terracotta_Army",img:"https://images.unsplash.com/photo-1591604129939-f1efa4d9f7fa?w=480&q=80&auto=format&fit=crop"},
+    {name:"Letní palác Peking",        en:"Summer Palace Beijing",built:1750,finished:1764,wiki:"Summer_Palace",img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
+    {name:"Pekinský olimpijský stadion",en:"Beijing National Stadium",built:2003,finished:2008,wiki:"Beijing_National_Stadium",img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
+    {name:"Potala palác Lhasa",        en:"Potala Palace Lhasa",built:637,finished:1694,wiki:"Potala_Palace",img:"https://images.unsplash.com/photo-1501179691627-eeaa65ea017c?w=480&q=80&auto=format&fit=crop"},
+    {name:"Machu Picchu — obdoba Huangshan", en:"Yellow Mountain Huangshan",built:-999,finished:-999,wiki:"Huangshan",img:"https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=480&q=80&auto=format&fit=crop"},
+    {name:"Šanghajská věž",            en:"Shanghai Tower",built:2008,finished:2015,wiki:"Shanghai_Tower",img:"https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=480&q=80&auto=format&fit=crop"},
+    {name:"Jeskynní chrámy Yungang",   en:"Yungang Grottoes",built:460,finished:525,wiki:"Yungang_Grottoes",img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
+    {name:"Tianmen — náměstí Peking",  en:"Tiananmen Square",built:1415,finished:1420,wiki:"Tiananmen_Square",img:"https://images.unsplash.com/photo-1584450150050-b15a7a4e5b9c?w=480&q=80&auto=format&fit=crop"},
   ],
   US:[
-    {name:"Socha Svobody",             en:"Statue of Liberty",         built:1875, finished:1886, img:"https://images.unsplash.com/photo-1485738422979-f5c462d49f74?w=480&q=80&auto=format&fit=crop"},
-    {name:"Golden Gate Bridge",        en:"Golden Gate Bridge",        built:1933, finished:1937, img:"https://images.unsplash.com/photo-1449034446853-66c86144b0ad?w=480&q=80&auto=format&fit=crop"},
-    {name:"Mount Rushmore",            en:"Mount Rushmore",            built:1927, finished:1941, img:"https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=480&q=80&auto=format&fit=crop"},
-    {name:"Capitol Washington",        en:"United States Capitol",     built:1793, finished:1800, img:"https://images.unsplash.com/photo-1501466044931-62695aada8e9?w=480&q=80&auto=format&fit=crop"},
-    {name:"Empire State Building",     en:"Empire State Building",     built:1930, finished:1931, img:"https://images.unsplash.com/photo-1555109307-f7d9da25c244?w=480&q=80&auto=format&fit=crop"},
-    {name:"Bílý dům",                  en:"The White House",           built:1792, finished:1800, img:"https://images.unsplash.com/photo-1501466044931-62695aada8e9?w=480&q=80&auto=format&fit=crop"},
-    {name:"Grand Canyon",              en:"Grand Canyon",              built:-999, finished:-999, img:"https://images.unsplash.com/photo-1474044159687-1ee9f3a51722?w=480&q=80&auto=format&fit=crop"},
-    {name:"Lincoln Memorial",          en:"Lincoln Memorial",          built:1914, finished:1922, img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
-    {name:"Chrysler Building",         en:"Chrysler Building",         built:1928, finished:1930, img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
-    {name:"One World Trade Center",    en:"One World Trade Center",    built:2006, finished:2014, img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
+    {name:"Socha Svobody",             en:"Statue of Liberty",built:1875,finished:1886,wiki:"Statue_of_Liberty",img:"https://images.unsplash.com/photo-1485738422979-f5c462d49f74?w=480&q=80&auto=format&fit=crop"},
+    {name:"Golden Gate Bridge",        en:"Golden Gate Bridge",built:1933,finished:1937,wiki:"Golden_Gate_Bridge",img:"https://images.unsplash.com/photo-1449034446853-66c86144b0ad?w=480&q=80&auto=format&fit=crop"},
+    {name:"Mount Rushmore",            en:"Mount Rushmore",built:1927,finished:1941,wiki:"Mount_Rushmore",img:"https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=480&q=80&auto=format&fit=crop"},
+    {name:"Capitol Washington",        en:"United States Capitol",built:1793,finished:1800,wiki:"United_States_Capitol",img:"https://images.unsplash.com/photo-1501466044931-62695aada8e9?w=480&q=80&auto=format&fit=crop"},
+    {name:"Empire State Building",     en:"Empire State Building",built:1930,finished:1931,wiki:"Empire_State_Building",img:"https://images.unsplash.com/photo-1555109307-f7d9da25c244?w=480&q=80&auto=format&fit=crop"},
+    {name:"Bílý dům",                  en:"The White House",built:1792,finished:1800,wiki:"White_House",img:"https://images.unsplash.com/photo-1501466044931-62695aada8e9?w=480&q=80&auto=format&fit=crop"},
+    {name:"Grand Canyon",              en:"Grand Canyon",built:-999,finished:-999,wiki:"Grand_Canyon",img:"https://images.unsplash.com/photo-1474044159687-1ee9f3a51722?w=480&q=80&auto=format&fit=crop"},
+    {name:"Lincoln Memorial",          en:"Lincoln Memorial",built:1914,finished:1922,wiki:"Lincoln_Memorial",img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
+    {name:"Chrysler Building",         en:"Chrysler Building",built:1928,finished:1930,wiki:"Chrysler_Building",img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
+    {name:"One World Trade Center",    en:"One World Trade Center",built:2006,finished:2014,wiki:"One_World_Trade_Center",img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
   ],
   BR:[
-    {name:"Kristus Vykupitel",         en:"Christ the Redeemer",       built:1922, finished:1931, img:"https://images.unsplash.com/photo-1483729558449-99ef09a8c325?w=480&q=80&auto=format&fit=crop"},
-    {name:"Iguazú — vodopády",         en:"Iguazu Falls",              built:-999, finished:-999, img:"https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=480&q=80&auto=format&fit=crop"},
-    {name:"Stadión Maracanã",          en:"Maracanã Stadium",          built:1948, finished:1950, img:"https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?w=480&q=80&auto=format&fit=crop"},
+    {name:"Kristus Vykupitel",         en:"Christ the Redeemer",built:1922,finished:1931,wiki:"Christ_the_Redeemer_(statue)",img:"https://images.unsplash.com/photo-1483729558449-99ef09a8c325?w=480&q=80&auto=format&fit=crop"},
+    {name:"Iguazú — vodopády",         en:"Iguazu Falls",built:-999,finished:-999,wiki:"Iguazu_Falls",img:"https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=480&q=80&auto=format&fit=crop"},
+    {name:"Stadión Maracanã",          en:"Maracanã Stadium",built:1948,finished:1950,wiki:"Estádio_do_Maracanã",img:"https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?w=480&q=80&auto=format&fit=crop"},
     {name:"Pelourinho Salvador",       en:"Pelourinho Salvador",       built:1549, finished:1700, img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
     {name:"Teatro Amazonas Manaus",    en:"Amazon Theatre Manaus",     built:1884, finished:1896, img:"https://images.unsplash.com/photo-1535478044878-3ed83d5456ef?w=480&q=80&auto=format&fit=crop"},
-    {name:"Pão de Açúcar — hora",      en:"Sugarloaf Mountain",        built:-999, finished:-999, img:"https://images.unsplash.com/photo-1483729558449-99ef09a8c325?w=480&q=80&auto=format&fit=crop"},
+    {name:"Pão de Açúcar — hora",      en:"Sugarloaf Mountain",built:-999,finished:-999,wiki:"Sugarloaf_Mountain",img:"https://images.unsplash.com/photo-1483729558449-99ef09a8c325?w=480&q=80&auto=format&fit=crop"},
     {name:"Kongresový palác Brasília", en:"Brazilian National Congress",built:1958,finished:1960, img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
     {name:"Catedral Brasília",         en:"Brasília Cathedral",        built:1958, finished:1970, img:"https://images.unsplash.com/photo-1548625149-720754874de6?w=480&q=80&auto=format&fit=crop"},
     {name:"Inhotim muzeum",            en:"Inhotim Museum",            built:2006, finished:2006, img:"https://images.unsplash.com/photo-1535478044878-3ed83d5456ef?w=480&q=80&auto=format&fit=crop"},
     {name:"Mosteiro São Bento",        en:"São Bento Monastery",       built:1598, finished:1641, img:"https://images.unsplash.com/photo-1548625149-720754874de6?w=480&q=80&auto=format&fit=crop"},
   ],
   AU:[
-    {name:"Opera v Sydney",            en:"Sydney Opera House",        built:1959, finished:1973, img:"https://images.unsplash.com/photo-1523059623039-a9ed027b7fad?w=480&q=80&auto=format&fit=crop"},
-    {name:"Uluru (Ayers Rock)",        en:"Uluru (Ayers Rock)",        built:-999, finished:-999, img:"https://images.unsplash.com/photo-1529108190281-9a4f620bc2d8?w=480&q=80&auto=format&fit=crop"},
-    {name:"Harbour Bridge Sydney",     en:"Sydney Harbour Bridge",     built:1923, finished:1932, img:"https://images.unsplash.com/photo-1523059623039-a9ed027b7fad?w=480&q=80&auto=format&fit=crop"},
-    {name:"Velký bariérový útes",      en:"Great Barrier Reef",        built:-999, finished:-999, img:"https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=480&q=80&auto=format&fit=crop"},
+    {name:"Opera v Sydney",            en:"Sydney Opera House",built:1959,finished:1973,wiki:"Sydney_Opera_House",img:"https://images.unsplash.com/photo-1523059623039-a9ed027b7fad?w=480&q=80&auto=format&fit=crop"},
+    {name:"Uluru (Ayers Rock)",        en:"Uluru (Ayers Rock)",built:-999,finished:-999,wiki:"Uluru",img:"https://images.unsplash.com/photo-1529108190281-9a4f620bc2d8?w=480&q=80&auto=format&fit=crop"},
+    {name:"Harbour Bridge Sydney",     en:"Sydney Harbour Bridge",built:1923,finished:1932,wiki:"Sydney_Harbour_Bridge",img:"https://images.unsplash.com/photo-1523059623039-a9ed027b7fad?w=480&q=80&auto=format&fit=crop"},
+    {name:"Velký bariérový útes",      en:"Great Barrier Reef",built:-999,finished:-999,wiki:"Great_Barrier_Reef",img:"https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=480&q=80&auto=format&fit=crop"},
     {name:"Parliament House Canberra", en:"Parliament House Canberra", built:1981, finished:1988, img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
     {name:"Twelve Apostles Victoria",  en:"Twelve Apostles",           built:-999, finished:-999, img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
     {name:"Melbourne Federation Square",en:"Federation Square Melbourne",built:1997,finished:2002,img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
@@ -2160,11 +2160,11 @@ const LANDMARKS = {
     {name:"Fremantle Prison",          en:"Fremantle Prison",          built:1851, finished:1859, img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
   ],
   EG:[
-    {name:"Pyramidy v Gíze",           en:"Pyramids of Giza",          built:-2580,finished:-2560,img:"https://images.unsplash.com/photo-1539650116574-75f0f07c8b17?w=480&q=80&auto=format&fit=crop"},
-    {name:"Sfinga v Gíze",             en:"Great Sphinx of Giza",      built:-2558,finished:-2532,img:"https://images.unsplash.com/photo-1539650116574-75f0f07c8b17?w=480&q=80&auto=format&fit=crop"},
-    {name:"Chrám Abu Simbel",          en:"Abu Simbel Temples",        built:-1264,finished:-1244,img:"https://images.unsplash.com/photo-1568322445389-f64ac2515020?w=480&q=80&auto=format&fit=crop"},
+    {name:"Pyramidy v Gíze",           en:"Pyramids of Giza",built:-2580,finished:-2560,wiki:"Giza_pyramid_complex",img:"https://images.unsplash.com/photo-1539650116574-75f0f07c8b17?w=480&q=80&auto=format&fit=crop"},
+    {name:"Sfinga v Gíze",             en:"Great Sphinx of Giza",built:-2558,finished:-2532,wiki:"Great_Sphinx_of_Giza",img:"https://images.unsplash.com/photo-1539650116574-75f0f07c8b17?w=480&q=80&auto=format&fit=crop"},
+    {name:"Chrám Abu Simbel",          en:"Abu Simbel Temples",built:-1264,finished:-1244,wiki:"Abu_Simbel_temples",img:"https://images.unsplash.com/photo-1568322445389-f64ac2515020?w=480&q=80&auto=format&fit=crop"},
     {name:"Mešita Ibn Tuluna Káhira",  en:"Ibn Tulun Mosque Cairo",    built:876,  finished:879,  img:"https://images.unsplash.com/photo-1564769625905-50e93615e769?w=480&q=80&auto=format&fit=crop"},
-    {name:"Karnak — chrámový komplex", en:"Karnak Temple Complex",     built:-2055,finished:-30,  img:"https://images.unsplash.com/photo-1548625149-720754874de6?w=480&q=80&auto=format&fit=crop"},
+    {name:"Karnak — chrámový komplex", en:"Karnak Temple Complex",built:-2055,finished:-30,wiki:"Karnak",img:"https://images.unsplash.com/photo-1548625149-720754874de6?w=480&q=80&auto=format&fit=crop"},
     {name:"Alexandrijský maják (Citadela Qaitbay)",en:"Citadel of Qaitbay",built:1477,finished:1479,img:"https://images.unsplash.com/photo-1534430480872-2b5a9f6a4b3e?w=480&q=80&auto=format&fit=crop"},
     {name:"Chrám Philae",              en:"Philae Temple",             built:-370, finished:-47,  img:"https://images.unsplash.com/photo-1548625149-720754874de6?w=480&q=80&auto=format&fit=crop"},
     {name:"Egyptské muzeum Káhira",    en:"Egyptian Museum Cairo",     built:1897, finished:1902, img:"https://images.unsplash.com/photo-1535478044878-3ed83d5456ef?w=480&q=80&auto=format&fit=crop"},
@@ -2172,11 +2172,11 @@ const LANDMARKS = {
     {name:"Suezský průplav — Canal",   en:"Suez Canal",                built:1859, finished:1869, img:"https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?w=480&q=80&auto=format&fit=crop"},
   ],
   ZA:[
-    {name:"Stolová hora Kapské Město",  en:"Table Mountain Cape Town",  built:-999, finished:-999, img:"https://images.unsplash.com/photo-1580060839134-75a5edca2e99?w=480&q=80&auto=format&fit=crop"},
-    {name:"Robben Island",              en:"Robben Island",              built:1652, finished:1996, img:"https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=480&q=80&auto=format&fit=crop"},
+    {name:"Stolová hora Kapské Město",  en:"Table Mountain Cape Town",built:-999,finished:-999,wiki:"Table_Mountain",img:"https://images.unsplash.com/photo-1580060839134-75a5edca2e99?w=480&q=80&auto=format&fit=crop"},
+    {name:"Robben Island",              en:"Robben Island",built:1652,finished:1996,wiki:"Robben_Island",img:"https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=480&q=80&auto=format&fit=crop"},
     {name:"Johannesburg — Sandton City",en:"Sandton City Johannesburg",  built:1973, finished:1973, img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
     {name:"Hrad Dobré naděje",          en:"Castle of Good Hope",        built:1666, finished:1679, img:"https://images.unsplash.com/photo-1534430480872-2b5a9f6a4b3e?w=480&q=80&auto=format&fit=crop"},
-    {name:"Kruger National Park",       en:"Kruger National Park",       built:1898, finished:1926, img:"https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?w=480&q=80&auto=format&fit=crop"},
+    {name:"Kruger National Park",       en:"Kruger National Park",built:1898,finished:1926,wiki:"Kruger_National_Park",img:"https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?w=480&q=80&auto=format&fit=crop"},
     {name:"Bloubergstrand — pohled",    en:"Boulders Beach Penguins",    built:-999, finished:-999, img:"https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=480&q=80&auto=format&fit=crop"},
     {name:"Apartheid muzeum",           en:"Apartheid Museum",           built:1999, finished:2001, img:"https://images.unsplash.com/photo-1535478044878-3ed83d5456ef?w=480&q=80&auto=format&fit=crop"},
     {name:"Drakensberg",                en:"Drakensberg Mountains",      built:-999, finished:-999, img:"https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=480&q=80&auto=format&fit=crop"},
@@ -2184,10 +2184,10 @@ const LANDMARKS = {
     {name:"Voortrekker Monument",       en:"Voortrekker Monument",       built:1938, finished:1949, img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
   ],
   AR:[
-    {name:"Iguazú — vodopády",         en:"Iguazu Falls Argentina",    built:-999, finished:-999, img:"https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=480&q=80&auto=format&fit=crop"},
-    {name:"Obelisco Buenos Aires",     en:"Obelisco Buenos Aires",     built:1936, finished:1936, img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
-    {name:"Perito Moreno ledovec",     en:"Perito Moreno Glacier",     built:-999, finished:-999, img:"https://images.unsplash.com/photo-1589307360545-a5a0dd60e3ee?w=480&q=80&auto=format&fit=crop"},
-    {name:"Teatro Colón Buenos Aires", en:"Teatro Colón",              built:1889, finished:1908, img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
+    {name:"Iguazú — vodopády",         en:"Iguazu Falls Argentina",built:-999,finished:-999,wiki:"Iguazu_Falls",img:"https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=480&q=80&auto=format&fit=crop"},
+    {name:"Obelisco Buenos Aires",     en:"Obelisco Buenos Aires",built:1936,finished:1936,wiki:"Obelisco_de_Buenos_Aires",img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
+    {name:"Perito Moreno ledovec",     en:"Perito Moreno Glacier",built:-999,finished:-999,wiki:"Perito_Moreno_Glacier",img:"https://images.unsplash.com/photo-1589307360545-a5a0dd60e3ee?w=480&q=80&auto=format&fit=crop"},
+    {name:"Teatro Colón Buenos Aires", en:"Teatro Colón",built:1889,finished:1908,wiki:"Teatro_Colón",img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
     {name:"La Boca — El Caminito",     en:"El Caminito Buenos Aires",  built:1959, finished:1959, img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
     {name:"Aconcagua",                 en:"Aconcagua",                 built:-999, finished:-999, img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
     {name:"Ushuaia — konec světa",     en:"Ushuaia End of the World",  built:1884, finished:1884, img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
@@ -2196,19 +2196,19 @@ const LANDMARKS = {
     {name:"Quebrada de Humahuaca",     en:"Quebrada de Humahuaca",     built:-999, finished:-999, img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
   ],
   CA:[
-    {name:"Niagarské vodopády",        en:"Niagara Falls",             built:-999, finished:-999, img:"https://images.unsplash.com/photo-1489447068241-b3490214e879?w=480&q=80&auto=format&fit=crop"},
-    {name:"CN Tower Toronto",          en:"CN Tower Toronto",          built:1973, finished:1976, img:"https://images.unsplash.com/photo-1517090504586-fde19ea6066f?w=480&q=80&auto=format&fit=crop"},
+    {name:"Niagarské vodopády",        en:"Niagara Falls",built:-999,finished:-999,wiki:"Niagara_Falls",img:"https://images.unsplash.com/photo-1489447068241-b3490214e879?w=480&q=80&auto=format&fit=crop"},
+    {name:"CN Tower Toronto",          en:"CN Tower Toronto",built:1973,finished:1976,wiki:"CN_Tower",img:"https://images.unsplash.com/photo-1517090504586-fde19ea6066f?w=480&q=80&auto=format&fit=crop"},
     {name:"Parlamentní budova Ottawa", en:"Parliament Hill Ottawa",    built:1859, finished:1866, img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
-    {name:"Banff National Park",       en:"Banff National Park",       built:1885, finished:1885, img:"https://images.unsplash.com/photo-1508193638397-1c4234db14d8?w=480&q=80&auto=format&fit=crop"},
+    {name:"Banff National Park",       en:"Banff National Park",built:1885,finished:1885,wiki:"Banff_National_Park",img:"https://images.unsplash.com/photo-1508193638397-1c4234db14d8?w=480&q=80&auto=format&fit=crop"},
     {name:"Old Quebec City",           en:"Old Quebec City",           built:1608, finished:1759, img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
-    {name:"Chateau Frontenac",         en:"Château Frontenac",         built:1892, finished:1924, img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
+    {name:"Chateau Frontenac",         en:"Château Frontenac",built:1892,finished:1924,wiki:"Château_Frontenac",img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
     {name:"Vancouver — Stanley Park",  en:"Stanley Park Vancouver",    built:1888, finished:1888, img:"https://images.unsplash.com/photo-1448375240586-882707db888b?w=480&q=80&auto=format&fit=crop"},
     {name:"Bay of Fundy",              en:"Bay of Fundy",              built:-999, finished:-999, img:"https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=480&q=80&auto=format&fit=crop"},
     {name:"Whistler — lyžařský resort",en:"Whistler Mountain Resort",  built:1914, finished:1965, img:"https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=480&q=80&auto=format&fit=crop"},
     {name:"Butchart Gardens",en:"Butchart Gardens",built:1904,finished:1929,img:"https://images.unsplash.com/photo-1448375240586-882707db888b?w=480&q=80&auto=format&fit=crop"},
   ],
   UA:[
-    {name:"Kyjevsko-pečerská lávra",en:"Kyiv Pechersk Lavra",built:1051,finished:1073,img:"https://images.unsplash.com/photo-1590868309235-ea34bed7bd7f?w=480&q=80&auto=format&fit=crop"},
+    {name:"Kyjevsko-pečerská lávra",en:"Kyiv Pechersk Lavra",built:1051,finished:1073,wiki:"Kiev_Pechersk_Lavra",img:"https://images.unsplash.com/photo-1590868309235-ea34bed7bd7f?w=480&q=80&auto=format&fit=crop"},
     {name:"Katedrála sv. Sofie Kyjev",en:"Saint Sophia Cathedral Kyiv",built:1011,finished:1018,img:"https://images.unsplash.com/photo-1548625149-720754874de6?w=480&q=80&auto=format&fit=crop"},
     {name:"Hrad Kamenec-Podilskij",en:"Kamianets-Podilskyi Castle",built:1362,finished:1434,img:"https://images.unsplash.com/photo-1534430480872-2b5a9f6a4b3e?w=480&q=80&auto=format&fit=crop"},
     {name:"Chersonesos Taurika",en:"Chersonesus Taurica",built:-421,finished:-400,img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
@@ -2220,7 +2220,7 @@ const LANDMARKS = {
     {name:"Chreschtatyk bulvár Kyjev",en:"Khreshchatyk Boulevard Kyiv",built:1797,finished:1954,img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
   ],
   PL:[
-    {name:"Wawel — hrad Krakov",en:"Wawel Royal Castle Krakow",built:1038,finished:1618,img:"https://images.unsplash.com/photo-1569949381669-ecf31ae8e613?w=480&q=80&auto=format&fit=crop"},
+    {name:"Wawel — hrad Krakov",en:"Wawel Royal Castle Krakow",built:1038,finished:1618,wiki:"Wawel_Castle",img:"https://images.unsplash.com/photo-1569949381669-ecf31ae8e613?w=480&q=80&auto=format&fit=crop"},
     {name:"Varšavské staré město",en:"Warsaw Old Town",built:1300,finished:1596,img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
     {name:"Auschwitz-Birkenau",en:"Auschwitz-Birkenau Memorial",built:1940,finished:1945,img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
     {name:"Malbork — hrad řádu",en:"Malbork Castle",built:1274,finished:1406,img:"https://images.unsplash.com/photo-1534430480872-2b5a9f6a4b3e?w=480&q=80&auto=format&fit=crop"},
@@ -2256,8 +2256,8 @@ const LANDMARKS = {
     {name:"Victoria Island Lagos",en:"Victoria Island Lagos",built:-999,finished:-999,img:"https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=480&q=80&auto=format&fit=crop"},
   ],
   MX:[
-    {name:"Teotihuacán — Pyramidy",en:"Teotihuacan Pyramids",built:-200,finished:250,img:"https://images.unsplash.com/photo-1518638150340-f706e86654de?w=480&q=80&auto=format&fit=crop"},
-    {name:"Chichén Itzá",en:"Chichen Itza",built:600,finished:900,img:"https://images.unsplash.com/photo-1518638150340-f706e86654de?w=480&q=80&auto=format&fit=crop"},
+    {name:"Teotihuacán — Pyramidy",en:"Teotihuacan Pyramids",built:-200,finished:250,wiki:"Teotihuacan",img:"https://images.unsplash.com/photo-1518638150340-f706e86654de?w=480&q=80&auto=format&fit=crop"},
+    {name:"Chichén Itzá",en:"Chichen Itza",built:600,finished:900,wiki:"Chichen_Itza",img:"https://images.unsplash.com/photo-1518638150340-f706e86654de?w=480&q=80&auto=format&fit=crop"},
     {name:"Palacio de Bellas Artes",en:"Palacio de Bellas Artes Mexico City",built:1904,finished:1934,img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
     {name:"Guanajuato — město",en:"Guanajuato City",built:1559,finished:1700,img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
     {name:"Monte Albán",en:"Monte Albán",built:-500,finished:700,img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
@@ -2280,10 +2280,10 @@ const LANDMARKS = {
     {name:"Christchurch — katedrála",en:"Christchurch Cathedral",built:1864,finished:1904,img:"https://images.unsplash.com/photo-1548625149-720754874de6?w=480&q=80&auto=format&fit=crop"},
   ],
   AT:[
-    {name:"Schönbrunnský palác",en:"Schönbrunn Palace Vienna",built:1696,finished:1730,img:"https://images.unsplash.com/photo-1609340278459-6f1a87f32b60?w=480&q=80&auto=format&fit=crop"},
-    {name:"Vídeňská opera",en:"Vienna State Opera",built:1861,finished:1869,img:"https://images.unsplash.com/photo-1535478044878-3ed83d5456ef?w=480&q=80&auto=format&fit=crop"},
+    {name:"Schönbrunnský palác",en:"Schönbrunn Palace Vienna",built:1696,finished:1730,wiki:"Schönbrunn_Palace",img:"https://images.unsplash.com/photo-1609340278459-6f1a87f32b60?w=480&q=80&auto=format&fit=crop"},
+    {name:"Vídeňská opera",en:"Vienna State Opera",built:1861,finished:1869,wiki:"Vienna_State_Opera",img:"https://images.unsplash.com/photo-1535478044878-3ed83d5456ef?w=480&q=80&auto=format&fit=crop"},
     {name:"Stephansdom Vídeň",en:"St. Stephen's Cathedral Vienna",built:1137,finished:1433,img:"https://images.unsplash.com/photo-1548625149-720754874de6?w=480&q=80&auto=format&fit=crop"},
-    {name:"Hallstatt — jezero a město",en:"Hallstatt Village",built:800,finished:1300,img:"https://images.unsplash.com/photo-1485872862337-20be5fde7c59?w=480&q=80&auto=format&fit=crop"},
+    {name:"Hallstatt — jezero a město",en:"Hallstatt Village",built:800,finished:1300,wiki:"Hallstatt",img:"https://images.unsplash.com/photo-1485872862337-20be5fde7c59?w=480&q=80&auto=format&fit=crop"},
     {name:"Melk — benediktinský klášter",en:"Melk Abbey",built:1702,finished:1736,img:"https://images.unsplash.com/photo-1548625149-720754874de6?w=480&q=80&auto=format&fit=crop"},
     {name:"Pevnost Hohensalzburg",en:"Hohensalzburg Fortress",built:1077,finished:1519,img:"https://images.unsplash.com/photo-1534430480872-2b5a9f6a4b3e?w=480&q=80&auto=format&fit=crop"},
     {name:"Hofburg Vídeň",en:"Hofburg Palace Vienna",built:1279,finished:1913,img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
@@ -2292,9 +2292,9 @@ const LANDMARKS = {
     {name:"Vídeň Prater — Riesenrad",en:"Vienna Prater Giant Wheel",built:1896,finished:1897,img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
   ],
   BE:[
-    {name:"Grand Place Brusel",en:"Grand Place Brussels",built:1401,finished:1455,img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
-    {name:"Atomium Brusel",en:"Atomium Brussels",built:1956,finished:1958,img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
-    {name:"Bruggy — kanály",en:"Bruges Canals",built:1127,finished:1300,img:"https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?w=480&q=80&auto=format&fit=crop"},
+    {name:"Grand Place Brusel",en:"Grand Place Brussels",built:1401,finished:1455,wiki:"Grand_Place",img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
+    {name:"Atomium Brusel",en:"Atomium Brussels",built:1956,finished:1958,wiki:"Atomium",img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
+    {name:"Bruggy — kanály",en:"Bruges Canals",built:1127,finished:1300,wiki:"Bruges",img:"https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?w=480&q=80&auto=format&fit=crop"},
     {name:"Manneken Pis",en:"Manneken Pis Brussels",built:1388,finished:1619,img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
     {name:"Gent — Gravensteen hrad",en:"Gravensteen Castle Ghent",built:1180,finished:1180,img:"https://images.unsplash.com/photo-1534430480872-2b5a9f6a4b3e?w=480&q=80&auto=format&fit=crop"},
     {name:"Antverpy — katedrála",en:"Antwerp Cathedral",built:1352,finished:1521,img:"https://images.unsplash.com/photo-1548625149-720754874de6?w=480&q=80&auto=format&fit=crop"},
@@ -2304,8 +2304,8 @@ const LANDMARKS = {
     {name:"Gent — Belfort věž",en:"Ghent Belfry",built:1313,finished:1380,img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
   ],
   NL:[
-    {name:"Rijksmuseum Amsterdam",en:"Rijksmuseum Amsterdam",built:1876,finished:1885,img:"https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?w=480&q=80&auto=format&fit=crop"},
-    {name:"Větrné mlýny Kinderdijk",en:"Kinderdijk Windmills",built:1738,finished:1740,img:"https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?w=480&q=80&auto=format&fit=crop"},
+    {name:"Rijksmuseum Amsterdam",en:"Rijksmuseum Amsterdam",built:1876,finished:1885,wiki:"Rijksmuseum",img:"https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?w=480&q=80&auto=format&fit=crop"},
+    {name:"Větrné mlýny Kinderdijk",en:"Kinderdijk Windmills",built:1738,finished:1740,wiki:"Kinderdijk",img:"https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?w=480&q=80&auto=format&fit=crop"},
     {name:"Anne Frankův dům Amsterdam",en:"Anne Frank House Amsterdam",built:1635,finished:1635,img:"https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?w=480&q=80&auto=format&fit=crop"},
     {name:"Keukenhof — tulipány",en:"Keukenhof Gardens",built:1949,finished:1950,img:"https://images.unsplash.com/photo-1448375240586-882707db888b?w=480&q=80&auto=format&fit=crop"},
     {name:"Rotterdam — Erasmusbrug",en:"Erasmus Bridge Rotterdam",built:1990,finished:1996,img:"https://images.unsplash.com/photo-1559181567-c3fd75c7e0bd?w=480&q=80&auto=format&fit=crop"},
@@ -2316,9 +2316,9 @@ const LANDMARKS = {
     {name:"Gouda — radnice",en:"Gouda City Hall",built:1448,finished:1459,img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
   ],
   PT:[
-    {name:"Torre de Belém",en:"Tower of Belém Lisbon",built:1516,finished:1521,img:"https://images.unsplash.com/photo-1555881400-74d7acaacd8b?w=480&q=80&auto=format&fit=crop"},
-    {name:"Mosteiro dos Jerónimos",en:"Jerónimos Monastery Lisbon",built:1501,finished:1601,img:"https://images.unsplash.com/photo-1548625149-720754874de6?w=480&q=80&auto=format&fit=crop"},
-    {name:"Palác Pena Sintra",en:"Pena Palace Sintra",built:1838,finished:1854,img:"https://images.unsplash.com/photo-1555881400-74d7acaacd8b?w=480&q=80&auto=format&fit=crop"},
+    {name:"Torre de Belém",en:"Tower of Belém Lisbon",built:1516,finished:1521,wiki:"Tower_of_Belém",img:"https://images.unsplash.com/photo-1555881400-74d7acaacd8b?w=480&q=80&auto=format&fit=crop"},
+    {name:"Mosteiro dos Jerónimos",en:"Jerónimos Monastery Lisbon",built:1501,finished:1601,wiki:"Jerónimos_Monastery",img:"https://images.unsplash.com/photo-1548625149-720754874de6?w=480&q=80&auto=format&fit=crop"},
+    {name:"Palác Pena Sintra",en:"Pena Palace Sintra",built:1838,finished:1854,wiki:"Palace_of_Pena",img:"https://images.unsplash.com/photo-1555881400-74d7acaacd8b?w=480&q=80&auto=format&fit=crop"},
     {name:"Porto — Dom Luís most",en:"Dom Luís I Bridge Porto",built:1881,finished:1886,img:"https://images.unsplash.com/photo-1559181567-c3fd75c7e0bd?w=480&q=80&auto=format&fit=crop"},
     {name:"Évora — Dianin chrám",en:"Temple of Diana Évora",built:100,finished:200,img:"https://images.unsplash.com/photo-1548625149-720754874de6?w=480&q=80&auto=format&fit=crop"},
     {name:"Quinta da Regaleira Sintra",en:"Quinta da Regaleira",built:1904,finished:1910,img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
@@ -2328,35 +2328,35 @@ const LANDMARKS = {
     {name:"Algarve — Ponta da Piedade",en:"Ponta da Piedade Algarve",built:-999,finished:-999,img:"https://images.unsplash.com/photo-1559181567-c3fd75c7e0bd?w=480&q=80&auto=format&fit=crop"},
   ],
   SE:[
-    {name:"Stockholmská radnice",en:"Stockholm City Hall",built:1911,finished:1923,img:"https://images.unsplash.com/photo-1509356843151-3e7d96241e11?w=480&q=80&auto=format&fit=crop"},
-    {name:"Vasa muzeum Stockholm",en:"Vasa Museum Stockholm",built:1987,finished:1990,img:"https://images.unsplash.com/photo-1535478044878-3ed83d5456ef?w=480&q=80&auto=format&fit=crop"},
-    {name:"Gamla Stan Stockholm",en:"Gamla Stan Stockholm",built:1250,finished:1600,img:"https://images.unsplash.com/photo-1509356843151-3e7d96241e11?w=480&q=80&auto=format&fit=crop"},
+    {name:"Stockholmská radnice",en:"Stockholm City Hall",built:1911,finished:1923,wiki:"Stockholm_City_Hall",img:"https://images.unsplash.com/photo-1509356843151-3e7d96241e11?w=480&q=80&auto=format&fit=crop"},
+    {name:"Vasa muzeum Stockholm",en:"Vasa Museum Stockholm",built:1987,finished:1990,wiki:"Vasa_Museum",img:"https://images.unsplash.com/photo-1535478044878-3ed83d5456ef?w=480&q=80&auto=format&fit=crop"},
+    {name:"Gamla Stan Stockholm",en:"Gamla Stan Stockholm",built:1250,finished:1600,wiki:"Gamla_stan",img:"https://images.unsplash.com/photo-1509356843151-3e7d96241e11?w=480&q=80&auto=format&fit=crop"},
     {name:"Drottningholm palác",en:"Drottningholm Palace",built:1662,finished:1756,img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
     {name:"Visby — středověké město",en:"Visby Medieval Town",built:1150,finished:1400,img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
-    {name:"Icehotel Jukkasjärvi",en:"Icehotel Jukkasjärvi",built:1989,finished:1989,img:"https://images.unsplash.com/photo-1418985991508-e47386d96a71?w=480&q=80&auto=format&fit=crop"},
+    {name:"Icehotel Jukkasjärvi",en:"Icehotel Jukkasjärvi",built:1989,finished:1989,wiki:"Icehotel",img:"https://images.unsplash.com/photo-1418985991508-e47386d96a71?w=480&q=80&auto=format&fit=crop"},
     {name:"Riksdag Stockholm",en:"Swedish Parliament Building",built:1897,finished:1905,img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
     {name:"Abba Museum Stockholm",en:"ABBA Museum Stockholm",built:2013,finished:2013,img:"https://images.unsplash.com/photo-1535478044878-3ed83d5456ef?w=480&q=80&auto=format&fit=crop"},
     {name:"Göteborský přístav",en:"Gothenburg Harbour",built:1621,finished:1700,img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
     {name:"Husaby kyrka",en:"Husaby Church Sweden",built:1000,finished:1150,img:"https://images.unsplash.com/photo-1548625149-720754874de6?w=480&q=80&auto=format&fit=crop"},
   ],
   DK:[
-    {name:"Malá mořská víla Kodaň",en:"Little Mermaid Copenhagen",built:1912,finished:1913,img:"https://images.unsplash.com/photo-1513622470522-26c3c8a854bc?w=480&q=80&auto=format&fit=crop"},
-    {name:"Tivoli Kodaň",en:"Tivoli Gardens Copenhagen",built:1843,finished:1843,img:"https://images.unsplash.com/photo-1448375240586-882707db888b?w=480&q=80&auto=format&fit=crop"},
-    {name:"Kronborg hrad Helsingør",en:"Kronborg Castle Helsingør",built:1420,finished:1585,img:"https://images.unsplash.com/photo-1534430480872-2b5a9f6a4b3e?w=480&q=80&auto=format&fit=crop"},
+    {name:"Malá mořská víla Kodaň",en:"Little Mermaid Copenhagen",built:1912,finished:1913,wiki:"The_Little_Mermaid_(statue)",img:"https://images.unsplash.com/photo-1513622470522-26c3c8a854bc?w=480&q=80&auto=format&fit=crop"},
+    {name:"Tivoli Kodaň",en:"Tivoli Gardens Copenhagen",built:1843,finished:1843,wiki:"Tivoli_Gardens",img:"https://images.unsplash.com/photo-1448375240586-882707db888b?w=480&q=80&auto=format&fit=crop"},
+    {name:"Kronborg hrad Helsingør",en:"Kronborg Castle Helsingør",built:1420,finished:1585,wiki:"Kronborg",img:"https://images.unsplash.com/photo-1534430480872-2b5a9f6a4b3e?w=480&q=80&auto=format&fit=crop"},
     {name:"Roskilde katedrála",en:"Roskilde Cathedral",built:1170,finished:1280,img:"https://images.unsplash.com/photo-1548625149-720754874de6?w=480&q=80&auto=format&fit=crop"},
     {name:"Frederiksborg palác",en:"Frederiksborg Palace",built:1600,finished:1625,img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
-    {name:"Nyhavn Kodaň",en:"Nyhavn Copenhagen",built:1671,finished:1673,img:"https://images.unsplash.com/photo-1513622470522-26c3c8a854bc?w=480&q=80&auto=format&fit=crop"},
+    {name:"Nyhavn Kodaň",en:"Nyhavn Copenhagen",built:1671,finished:1673,wiki:"Nyhavn",img:"https://images.unsplash.com/photo-1513622470522-26c3c8a854bc?w=480&q=80&auto=format&fit=crop"},
     {name:"Jelling runy",en:"Jelling Runic Stones",built:958,finished:965,img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
     {name:"Legoland Billund",en:"Legoland Billund",built:1968,finished:1968,img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
     {name:"Kodaňská opera",en:"Copenhagen Opera House",built:2001,finished:2004,img:"https://images.unsplash.com/photo-1535478044878-3ed83d5456ef?w=480&q=80&auto=format&fit=crop"},
     {name:"Aarhus — ARoS muzeum",en:"ARoS Aarhus Art Museum",built:2002,finished:2004,img:"https://images.unsplash.com/photo-1535478044878-3ed83d5456ef?w=480&q=80&auto=format&fit=crop"},
   ],
   FI:[
-    {name:"Helsinky — katedrála",en:"Helsinki Cathedral",built:1830,finished:1852,img:"https://images.unsplash.com/photo-1559028012-481c04fa702d?w=480&q=80&auto=format&fit=crop"},
-    {name:"Suomenlinna — pevnost",en:"Suomenlinna Fortress",built:1748,finished:1772,img:"https://images.unsplash.com/photo-1534430480872-2b5a9f6a4b3e?w=480&q=80&auto=format&fit=crop"},
+    {name:"Helsinky — katedrála",en:"Helsinki Cathedral",built:1830,finished:1852,wiki:"Helsinki_Cathedral",img:"https://images.unsplash.com/photo-1559028012-481c04fa702d?w=480&q=80&auto=format&fit=crop"},
+    {name:"Suomenlinna — pevnost",en:"Suomenlinna Fortress",built:1748,finished:1772,wiki:"Suomenlinna",img:"https://images.unsplash.com/photo-1534430480872-2b5a9f6a4b3e?w=480&q=80&auto=format&fit=crop"},
     {name:"Turku hrad",en:"Turku Castle",built:1280,finished:1290,img:"https://images.unsplash.com/photo-1534430480872-2b5a9f6a4b3e?w=480&q=80&auto=format&fit=crop"},
     {name:"Olavinlinna hrad",en:"Olavinlinna Castle Savonlinna",built:1475,finished:1475,img:"https://images.unsplash.com/photo-1534430480872-2b5a9f6a4b3e?w=480&q=80&auto=format&fit=crop"},
-    {name:"Santa Claus Village Rovaniemi",en:"Santa Claus Village Rovaniemi",built:1985,finished:1985,img:"https://images.unsplash.com/photo-1418985991508-e47386d96a71?w=480&q=80&auto=format&fit=crop"},
+    {name:"Santa Claus Village Rovaniemi",en:"Santa Claus Village Rovaniemi",built:1985,finished:1985,wiki:"Santa_Claus_Village",img:"https://images.unsplash.com/photo-1418985991508-e47386d96a71?w=480&q=80&auto=format&fit=crop"},
     {name:"Koli National Park",en:"Koli National Park Finland",built:1991,finished:1991,img:"https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?w=480&q=80&auto=format&fit=crop"},
     {name:"Porvoo — staré město",en:"Porvoo Old Town",built:1346,finished:1400,img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
     {name:"Finlandia-talo Helsinki",en:"Finlandia Hall Helsinki",built:1967,finished:1971,img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
@@ -2364,9 +2364,9 @@ const LANDMARKS = {
     {name:"Siida muzeum Inari",en:"Siida Museum Inari",built:1998,finished:1998,img:"https://images.unsplash.com/photo-1535478044878-3ed83d5456ef?w=480&q=80&auto=format&fit=crop"},
   ],
   GR:[
-    {name:"Akropolis Atény",en:"Acropolis of Athens",built:-447,finished:-432,img:"https://images.unsplash.com/photo-1555993539-1732b0258235?w=480&q=80&auto=format&fit=crop"},
-    {name:"Meteorá — kláštery",en:"Meteora Monasteries",built:1356,finished:1483,img:"https://images.unsplash.com/photo-1549893072-4bc678117f45?w=480&q=80&auto=format&fit=crop"},
-    {name:"Santorini — Oia",en:"Santorini Oia",built:1600,finished:1800,img:"https://images.unsplash.com/photo-1533105079780-92b9be482077?w=480&q=80&auto=format&fit=crop"},
+    {name:"Akropolis Atény",en:"Acropolis of Athens",built:-447,finished:-432,wiki:"Acropolis_of_Athens",img:"https://images.unsplash.com/photo-1555993539-1732b0258235?w=480&q=80&auto=format&fit=crop"},
+    {name:"Meteorá — kláštery",en:"Meteora Monasteries",built:1356,finished:1483,wiki:"Meteora",img:"https://images.unsplash.com/photo-1549893072-4bc678117f45?w=480&q=80&auto=format&fit=crop"},
+    {name:"Santorini — Oia",en:"Santorini Oia",built:1600,finished:1800,wiki:"Oia,_Santorini",img:"https://images.unsplash.com/photo-1533105079780-92b9be482077?w=480&q=80&auto=format&fit=crop"},
     {name:"Delfská věštírna",en:"Delphi Oracle",built:-800,finished:-390,img:"https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=480&q=80&auto=format&fit=crop"},
     {name:"Olympia — antická",en:"Ancient Olympia",built:-776,finished:-393,img:"https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=480&q=80&auto=format&fit=crop"},
     {name:"Knóssos Kréta",en:"Knossos Palace Crete",built:-1900,finished:-1400,img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
@@ -2376,7 +2376,7 @@ const LANDMARKS = {
     {name:"Rhodos — staré město",en:"Rhodes Old Town",built:408,finished:1523,img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
   ],
   RO:[
-    {name:"Hrad Bran — Drakula",en:"Bran Castle Romania",built:1377,finished:1388,img:"https://images.unsplash.com/photo-1534430480872-2b5a9f6a4b3e?w=480&q=80&auto=format&fit=crop"},
+    {name:"Hrad Bran — Drakula",en:"Bran Castle Romania",built:1377,finished:1388,wiki:"Bran_Castle",img:"https://images.unsplash.com/photo-1534430480872-2b5a9f6a4b3e?w=480&q=80&auto=format&fit=crop"},
     {name:"Parlamentní palác Bukurešť",en:"Palace of Parliament Bucharest",built:1984,finished:1997,img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
     {name:"Peles hrad Sinaia",en:"Peleș Castle Sinaia",built:1873,finished:1914,img:"https://images.unsplash.com/photo-1534430480872-2b5a9f6a4b3e?w=480&q=80&auto=format&fit=crop"},
     {name:"Sighișoara — staré město",en:"Sighișoara Historic Centre",built:1191,finished:1400,img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
@@ -2388,10 +2388,10 @@ const LANDMARKS = {
     {name:"Cluj-Napoca — katedrála",en:"Cluj-Napoca Cathedral",built:1349,finished:1442,img:"https://images.unsplash.com/photo-1548625149-720754874de6?w=480&q=80&auto=format&fit=crop"},
   ],
   HU:[
-    {name:"Budapešť — parlament",en:"Hungarian Parliament Building",built:1885,finished:1904,img:"https://images.unsplash.com/photo-1555990793-4bed8455dbd0?w=480&q=80&auto=format&fit=crop"},
-    {name:"Budínský hrad",en:"Buda Castle Budapest",built:1265,finished:1749,img:"https://images.unsplash.com/photo-1565426873118-a17ed65d74b9?w=480&q=80&auto=format&fit=crop"},
-    {name:"Řetězový most Budapešť",en:"Chain Bridge Budapest",built:1840,finished:1849,img:"https://images.unsplash.com/photo-1559181567-c3fd75c7e0bd?w=480&q=80&auto=format&fit=crop"},
-    {name:"Fisherman's Bastion Budapešť",en:"Fisherman's Bastion Budapest",built:1895,finished:1902,img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
+    {name:"Budapešť — parlament",en:"Hungarian Parliament Building",built:1885,finished:1904,wiki:"Hungarian_Parliament_Building",img:"https://images.unsplash.com/photo-1555990793-4bed8455dbd0?w=480&q=80&auto=format&fit=crop"},
+    {name:"Budínský hrad",en:"Buda Castle Budapest",built:1265,finished:1749,wiki:"Buda_Castle",img:"https://images.unsplash.com/photo-1565426873118-a17ed65d74b9?w=480&q=80&auto=format&fit=crop"},
+    {name:"Řetězový most Budapešť",en:"Chain Bridge Budapest",built:1840,finished:1849,wiki:"Chain_Bridge_(Budapest)",img:"https://images.unsplash.com/photo-1559181567-c3fd75c7e0bd?w=480&q=80&auto=format&fit=crop"},
+    {name:"Fisherman's Bastion Budapešť",en:"Fisherman's Bastion Budapest",built:1895,finished:1902,wiki:"Fisherman%27s_Bastion",img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
     {name:"Széchenyi lázně Budapešť",en:"Széchenyi Thermal Bath Budapest",built:1909,finished:1913,img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
     {name:"Balaton — jezero",en:"Lake Balaton Hungary",built:-999,finished:-999,img:"https://images.unsplash.com/photo-1448375240586-882707db888b?w=480&q=80&auto=format&fit=crop"},
     {name:"Eger — hrad",en:"Eger Castle Hungary",built:1248,finished:1568,img:"https://images.unsplash.com/photo-1534430480872-2b5a9f6a4b3e?w=480&q=80&auto=format&fit=crop"},
@@ -2400,10 +2400,10 @@ const LANDMARKS = {
     {name:"Hévíz — termální jezero",en:"Lake Hévíz Thermal Bath",built:-999,finished:-999,img:"https://images.unsplash.com/photo-1448375240586-882707db888b?w=480&q=80&auto=format&fit=crop"},
   ],
   SK:[
-    {name:"Bratislavský hrad",en:"Bratislava Castle",built:907,finished:1562,img:"https://images.unsplash.com/photo-1548625149-720754874de6?w=480&q=80&auto=format&fit=crop"},
-    {name:"Spišský hrad",en:"Spiš Castle Slovakia",built:1209,finished:1780,img:"https://images.unsplash.com/photo-1534430480872-2b5a9f6a4b3e?w=480&q=80&auto=format&fit=crop"},
-    {name:"Bojnický zámek",en:"Bojnice Castle Slovakia",built:1113,finished:1910,img:"https://images.unsplash.com/photo-1534430480872-2b5a9f6a4b3e?w=480&q=80&auto=format&fit=crop"},
-    {name:"Vysoké Tatry",en:"High Tatras Mountains Slovakia",built:-999,finished:-999,img:"https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=480&q=80&auto=format&fit=crop"},
+    {name:"Bratislavský hrad",en:"Bratislava Castle",built:907,finished:1562,wiki:"Bratislava_Castle",img:"https://images.unsplash.com/photo-1548625149-720754874de6?w=480&q=80&auto=format&fit=crop"},
+    {name:"Spišský hrad",en:"Spiš Castle Slovakia",built:1209,finished:1780,wiki:"Spiš_Castle",img:"https://images.unsplash.com/photo-1534430480872-2b5a9f6a4b3e?w=480&q=80&auto=format&fit=crop"},
+    {name:"Bojnický zámek",en:"Bojnice Castle Slovakia",built:1113,finished:1910,wiki:"Bojnice_Castle",img:"https://images.unsplash.com/photo-1534430480872-2b5a9f6a4b3e?w=480&q=80&auto=format&fit=crop"},
+    {name:"Vysoké Tatry",en:"High Tatras Mountains Slovakia",built:-999,finished:-999,wiki:"High_Tatras",img:"https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=480&q=80&auto=format&fit=crop"},
     {name:"Banská Štiavnica",en:"Banská Štiavnica Mining Town",built:1156,finished:1747,img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
     {name:"Vlkolinec — lidové stavby",en:"Vlkolínec Folk Architecture",built:1300,finished:1400,img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
     {name:"Košice — katedrála",en:"St. Elisabeth Cathedral Košice",built:1320,finished:1508,img:"https://images.unsplash.com/photo-1548625149-720754874de6?w=480&q=80&auto=format&fit=crop"},
@@ -2412,9 +2412,9 @@ const LANDMARKS = {
     {name:"Čičmany — lidové vzory",en:"Čičmany Folk Village",built:1600,finished:1800,img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
   ],
   HR:[
-    {name:"Dubrovník — staré město",en:"Dubrovnik Old Town",built:614,finished:1667,img:"https://images.unsplash.com/photo-1555990793-da11153b6207?w=480&q=80&auto=format&fit=crop"},
+    {name:"Dubrovník — staré město",en:"Dubrovnik Old Town",built:614,finished:1667,wiki:"Dubrovnik",img:"https://images.unsplash.com/photo-1555990793-da11153b6207?w=480&q=80&auto=format&fit=crop"},
     {name:"Diokleciánův palác Split",en:"Diocletian's Palace Split",built:295,finished:305,img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
-    {name:"Plitvická jezera",en:"Plitvice Lakes Croatia",built:-999,finished:-999,img:"https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=480&q=80&auto=format&fit=crop"},
+    {name:"Plitvická jezera",en:"Plitvice Lakes Croatia",built:-999,finished:-999,wiki:"Plitvice_Lakes_National_Park",img:"https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=480&q=80&auto=format&fit=crop"},
     {name:"Šibenik — katedrála",en:"Šibenik Cathedral",built:1431,finished:1536,img:"https://images.unsplash.com/photo-1548625149-720754874de6?w=480&q=80&auto=format&fit=crop"},
     {name:"Eufrazijská bazilika Poreč",en:"Euphrasian Basilica Poreč",built:553,finished:559,img:"https://images.unsplash.com/photo-1548625149-720754874de6?w=480&q=80&auto=format&fit=crop"},
     {name:"Záhřeb — katedrála",en:"Zagreb Cathedral",built:1093,finished:1899,img:"https://images.unsplash.com/photo-1548625149-720754874de6?w=480&q=80&auto=format&fit=crop"},
@@ -2424,7 +2424,7 @@ const LANDMARKS = {
     {name:"Stari Grad Hvar",en:"Stari Grad Plain Hvar",built:-384,finished:-350,img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
   ],
   BG:[
-    {name:"Rila — klášter",en:"Rila Monastery Bulgaria",built:927,finished:1335,img:"https://images.unsplash.com/photo-1548625149-720754874de6?w=480&q=80&auto=format&fit=crop"},
+    {name:"Rila — klášter",en:"Rila Monastery Bulgaria",built:927,finished:1335,wiki:"Rila_Monastery",img:"https://images.unsplash.com/photo-1548625149-720754874de6?w=480&q=80&auto=format&fit=crop"},
     {name:"Alexander Nevský Sofie",en:"Alexander Nevsky Cathedral Sofia",built:1882,finished:1912,img:"https://images.unsplash.com/photo-1548625149-720754874de6?w=480&q=80&auto=format&fit=crop"},
     {name:"Nesebăr — staré město",en:"Nesebăr Old Town Bulgaria",built:-700,finished:1000,img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
     {name:"Tsarevets — hrad Turnovo",en:"Tsarevets Fortress Turnovo",built:1185,finished:1393,img:"https://images.unsplash.com/photo-1534430480872-2b5a9f6a4b3e?w=480&q=80&auto=format&fit=crop"},
@@ -2436,10 +2436,10 @@ const LANDMARKS = {
     {name:"Srebarna — přírodní rezervace",en:"Srebarna Nature Reserve",built:-999,finished:-999,img:"https://images.unsplash.com/photo-1448375240586-882707db888b?w=480&q=80&auto=format&fit=crop"},
   ],
   MA:[
-    {name:"Medína Fés",en:"Medina of Fez Morocco",built:789,finished:900,img:"https://images.unsplash.com/photo-1597212720455-a10c38636025?w=480&q=80&auto=format&fit=crop"},
-    {name:"Hassan II mešita Casablanca",en:"Hassan II Mosque Casablanca",built:1986,finished:1993,img:"https://images.unsplash.com/photo-1561022882-9a3c9efe8f04?w=480&q=80&auto=format&fit=crop"},
+    {name:"Medína Fés",en:"Medina of Fez Morocco",built:789,finished:900,wiki:"Fes_el_Bali",img:"https://images.unsplash.com/photo-1597212720455-a10c38636025?w=480&q=80&auto=format&fit=crop"},
+    {name:"Hassan II mešita Casablanca",en:"Hassan II Mosque Casablanca",built:1986,finished:1993,wiki:"Hassan_II_Mosque",img:"https://images.unsplash.com/photo-1561022882-9a3c9efe8f04?w=480&q=80&auto=format&fit=crop"},
     {name:"Ait Benhaddou kasbah",en:"Aït Benhaddou Kasbah",built:1100,finished:1300,img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
-    {name:"Chefchaouen — modré město",en:"Chefchaouen Blue City",built:1471,finished:1471,img:"https://images.unsplash.com/photo-1553789168-c3fd75c7e0bd?w=480&q=80&auto=format&fit=crop"},
+    {name:"Chefchaouen — modré město",en:"Chefchaouen Blue City",built:1471,finished:1471,wiki:"Chefchaouen",img:"https://images.unsplash.com/photo-1553789168-c3fd75c7e0bd?w=480&q=80&auto=format&fit=crop"},
     {name:"Džamá el-Fná Marrákeš",en:"Jemaa el-Fna Marrakech",built:1050,finished:1100,img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
     {name:"Volubilis — antické město",en:"Volubilis Roman Ruins",built:-300,finished:285,img:"https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=480&q=80&auto=format&fit=crop"},
     {name:"Saharské duny Merzouga",en:"Sahara Desert Dunes Merzouga",built:-999,finished:-999,img:"https://images.unsplash.com/photo-1509316785289-025f5b846b35?w=480&q=80&auto=format&fit=crop"},
@@ -2448,7 +2448,7 @@ const LANDMARKS = {
     {name:"Medína Marrákeš",en:"Medina of Marrakech",built:1070,finished:1147,img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
   ],
   ET:[
-    {name:"Lalibela — skalní kostely",en:"Lalibela Rock-Hewn Churches",built:1150,finished:1250,img:"https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?w=480&q=80&auto=format&fit=crop"},
+    {name:"Lalibela — skalní kostely",en:"Lalibela Rock-Hewn Churches",built:1150,finished:1250,wiki:"Lalibela",img:"https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?w=480&q=80&auto=format&fit=crop"},
     {name:"Obelisk z Aksumu",en:"Obelisk of Axum Ethiopia",built:300,finished:350,img:"https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?w=480&q=80&auto=format&fit=crop"},
     {name:"Fasil Ghebbi Gondar",en:"Fasil Ghebbi Fortress Gondar",built:1636,finished:1667,img:"https://images.unsplash.com/photo-1534430480872-2b5a9f6a4b3e?w=480&q=80&auto=format&fit=crop"},
     {name:"Simien Mountains",en:"Simien Mountains Ethiopia",built:-999,finished:-999,img:"https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=480&q=80&auto=format&fit=crop"},
@@ -2460,9 +2460,9 @@ const LANDMARKS = {
     {name:"Yeha — starověký chrám",en:"Yeha Ancient Temple Ethiopia",built:-700,finished:-500,img:"https://images.unsplash.com/photo-1548625149-720754874de6?w=480&q=80&auto=format&fit=crop"},
   ],
   KE:[
-    {name:"Masai Mara — savana",en:"Maasai Mara Reserve Kenya",built:1961,finished:1961,img:"https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?w=480&q=80&auto=format&fit=crop"},
+    {name:"Masai Mara — savana",en:"Maasai Mara Reserve Kenya",built:1961,finished:1961,wiki:"Maasai_Mara",img:"https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?w=480&q=80&auto=format&fit=crop"},
     {name:"Hora Keňa",en:"Mount Kenya",built:-999,finished:-999,img:"https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?w=480&q=80&auto=format&fit=crop"},
-    {name:"Fort Jesus Mombasa",en:"Fort Jesus Mombasa Kenya",built:1593,finished:1596,img:"https://images.unsplash.com/photo-1534430480872-2b5a9f6a4b3e?w=480&q=80&auto=format&fit=crop"},
+    {name:"Fort Jesus Mombasa",en:"Fort Jesus Mombasa Kenya",built:1593,finished:1596,wiki:"Fort_Jesus",img:"https://images.unsplash.com/photo-1534430480872-2b5a9f6a4b3e?w=480&q=80&auto=format&fit=crop"},
     {name:"Lamu — staré město",en:"Lamu Old Town Kenya",built:1370,finished:1400,img:"https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?w=480&q=80&auto=format&fit=crop"},
     {name:"Amboseli National Park",en:"Amboseli National Park Kenya",built:1974,finished:1974,img:"https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?w=480&q=80&auto=format&fit=crop"},
     {name:"Nairobi National Park",en:"Nairobi National Park",built:1946,finished:1946,img:"https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?w=480&q=80&auto=format&fit=crop"},
@@ -2472,9 +2472,9 @@ const LANDMARKS = {
     {name:"Ngong Hills Nairobi",en:"Ngong Hills Nairobi",built:-999,finished:-999,img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
   ],
   TZ:[
-    {name:"Kilimandžáro",en:"Mount Kilimanjaro Tanzania",built:-999,finished:-999,img:"https://images.unsplash.com/photo-1589308078059-be1415eab4c3?w=480&q=80&auto=format&fit=crop"},
-    {name:"Serengeti National Park",en:"Serengeti National Park Tanzania",built:1951,finished:1951,img:"https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?w=480&q=80&auto=format&fit=crop"},
-    {name:"Zanzibar — Stone Town",en:"Stone Town Zanzibar",built:1830,finished:1870,img:"https://images.unsplash.com/photo-1597212720455-a10c38636025?w=480&q=80&auto=format&fit=crop"},
+    {name:"Kilimandžáro",en:"Mount Kilimanjaro Tanzania",built:-999,finished:-999,wiki:"Mount_Kilimanjaro",img:"https://images.unsplash.com/photo-1589308078059-be1415eab4c3?w=480&q=80&auto=format&fit=crop"},
+    {name:"Serengeti National Park",en:"Serengeti National Park Tanzania",built:1951,finished:1951,wiki:"Serengeti_National_Park",img:"https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?w=480&q=80&auto=format&fit=crop"},
+    {name:"Zanzibar — Stone Town",en:"Stone Town Zanzibar",built:1830,finished:1870,wiki:"Stone_Town",img:"https://images.unsplash.com/photo-1597212720455-a10c38636025?w=480&q=80&auto=format&fit=crop"},
     {name:"Ngorongoro kráter",en:"Ngorongoro Crater Tanzania",built:-999,finished:-999,img:"https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?w=480&q=80&auto=format&fit=crop"},
     {name:"Kilwa Kisiwani — ruiny",en:"Kilwa Kisiwani Ruins",built:960,finished:1498,img:"https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=480&q=80&auto=format&fit=crop"},
     {name:"Zanzibar — pláže",en:"Zanzibar Beaches",built:-999,finished:-999,img:"https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=480&q=80&auto=format&fit=crop"},
@@ -2484,8 +2484,8 @@ const LANDMARKS = {
     {name:"Mahale Mountains",en:"Mahale Mountains National Park",built:1985,finished:1985,img:"https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=480&q=80&auto=format&fit=crop"},
   ],
   GH:[
-    {name:"Cape Coast Castle Ghana",en:"Cape Coast Castle Ghana",built:1653,finished:1665,img:"https://images.unsplash.com/photo-1534430480872-2b5a9f6a4b3e?w=480&q=80&auto=format&fit=crop"},
-    {name:"Elmina Castle Ghana",en:"Elmina Castle Ghana",built:1482,finished:1486,img:"https://images.unsplash.com/photo-1534430480872-2b5a9f6a4b3e?w=480&q=80&auto=format&fit=crop"},
+    {name:"Cape Coast Castle Ghana",en:"Cape Coast Castle Ghana",built:1653,finished:1665,wiki:"Cape_Coast_Castle",img:"https://images.unsplash.com/photo-1534430480872-2b5a9f6a4b3e?w=480&q=80&auto=format&fit=crop"},
+    {name:"Elmina Castle Ghana",en:"Elmina Castle Ghana",built:1482,finished:1486,wiki:"Elmina_Castle",img:"https://images.unsplash.com/photo-1534430480872-2b5a9f6a4b3e?w=480&q=80&auto=format&fit=crop"},
     {name:"Black Star Square Accra",en:"Black Star Square Accra",built:1961,finished:1961,img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
     {name:"Kakum National Park Ghana",en:"Kakum National Park Ghana",built:1931,finished:1992,img:"https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?w=480&q=80&auto=format&fit=crop"},
     {name:"Kumasi Ashanti Palace",en:"Kumasi Ashanti Palace",built:1700,finished:1700,img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
@@ -2545,7 +2545,7 @@ const LANDMARKS = {
   ],
   CL:[
     {name:"Ahu Tongariki — Velikonoční ostrov",en:"Ahu Tongariki Easter Island Chile",built:1400,finished:1500,img:"https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=480&q=80&auto=format&fit=crop"},
-    {name:"Torres del Paine",en:"Torres del Paine Chile",built:1959,finished:1959,img:"https://images.unsplash.com/photo-1501854140801-50d01698950b?w=480&q=80&auto=format&fit=crop"},
+    {name:"Torres del Paine",en:"Torres del Paine Chile",built:1959,finished:1959,wiki:"Torres_del_Paine",img:"https://images.unsplash.com/photo-1501854140801-50d01698950b?w=480&q=80&auto=format&fit=crop"},
     {name:"Valparaíso — barevné domy",en:"Valparaíso Historic Quarter Chile",built:1536,finished:1800,img:"https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=480&q=80&auto=format&fit=crop"},
     {name:"Atacamská poušť",en:"Atacama Desert Chile",built:-999,finished:-999,img:"https://images.unsplash.com/photo-1509316785289-025f5b846b35?w=480&q=80&auto=format&fit=crop"},
     {name:"Chiloe — dřevěné kostely",en:"Chiloé Wooden Churches",built:1600,finished:1900,img:"https://images.unsplash.com/photo-1548625149-720754874de6?w=480&q=80&auto=format&fit=crop"},
@@ -2556,19 +2556,19 @@ const LANDMARKS = {
     {name:"La Serena katedrála",en:"La Serena Cathedral Chile",built:1844,finished:1956,img:"https://images.unsplash.com/photo-1548625149-720754874de6?w=480&q=80&auto=format&fit=crop"},
   ],
   PE:[
-    {name:"Machu Picchu",en:"Machu Picchu Peru",built:1450,finished:1460,img:"https://images.unsplash.com/photo-1526392060635-9d6019884377?w=480&q=80&auto=format&fit=crop"},
-    {name:"Nazca — záhadné linie",en:"Nazca Lines Peru",built:-500,finished:-500,img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
+    {name:"Machu Picchu",en:"Machu Picchu Peru",built:1450,finished:1460,wiki:"Machu_Picchu",img:"https://images.unsplash.com/photo-1526392060635-9d6019884377?w=480&q=80&auto=format&fit=crop"},
+    {name:"Nazca — záhadné linie",en:"Nazca Lines Peru",built:-500,finished:-500,wiki:"Nazca_lines",img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
     {name:"Cusco — historické centrum",en:"Cusco Historic Centre Peru",built:1100,finished:1400,img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
     {name:"Uros — plovoucí ostrovy Titicaca",en:"Uros Floating Islands Titicaca",built:1400,finished:1400,img:"https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=480&q=80&auto=format&fit=crop"},
     {name:"Chan Chan — hliněné město",en:"Chan Chan Adobe City Peru",built:850,finished:1470,img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
     {name:"Arequipa — katedrála",en:"Arequipa Cathedral Peru",built:1544,finished:1656,img:"https://images.unsplash.com/photo-1548625149-720754874de6?w=480&q=80&auto=format&fit=crop"},
-    {name:"Colca Canyon Peru",en:"Colca Canyon Peru",built:-999,finished:-999,img:"https://images.unsplash.com/photo-1474044159687-1ee9f3a51722?w=480&q=80&auto=format&fit=crop"},
+    {name:"Colca Canyon Peru",en:"Colca Canyon Peru",built:-999,finished:-999,wiki:"Colca_Canyon",img:"https://images.unsplash.com/photo-1474044159687-1ee9f3a51722?w=480&q=80&auto=format&fit=crop"},
     {name:"Kuélap — pevnost",en:"Kuélap Fortress Peru",built:500,finished:900,img:"https://images.unsplash.com/photo-1534430480872-2b5a9f6a4b3e?w=480&q=80&auto=format&fit=crop"},
     {name:"Paracas National Reserve",en:"Paracas National Reserve Peru",built:1975,finished:1975,img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
     {name:"Chavín de Huántar",en:"Chavín de Huántar Peru",built:-900,finished:-200,img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
   ],
   VE:[
-    {name:"Angel Falls — Salto Ángel",en:"Angel Falls Venezuela",built:-999,finished:-999,img:"https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=480&q=80&auto=format&fit=crop"},
+    {name:"Angel Falls — Salto Ángel",en:"Angel Falls Venezuela",built:-999,finished:-999,wiki:"Angel_Falls",img:"https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=480&q=80&auto=format&fit=crop"},
     {name:"Roraima — stolová hora",en:"Mount Roraima Venezuela",built:-999,finished:-999,img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
     {name:"Canaima National Park",en:"Canaima National Park Venezuela",built:1962,finished:1962,img:"https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?w=480&q=80&auto=format&fit=crop"},
     {name:"Los Roques archipelago",en:"Los Roques Archipelago Venezuela",built:-999,finished:-999,img:"https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=480&q=80&auto=format&fit=crop"},
@@ -2580,7 +2580,7 @@ const LANDMARKS = {
     {name:"Karibské pobřeží Venezuely",en:"Venezuelan Caribbean Coast",built:-999,finished:-999,img:"https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=480&q=80&auto=format&fit=crop"},
   ],
   CU:[
-    {name:"Staré Havana — centro histórico",en:"Old Havana Historic Centre Cuba",built:1519,finished:1600,img:"https://images.unsplash.com/photo-1519197924294-4ba991a11128?w=480&q=80&auto=format&fit=crop"},
+    {name:"Staré Havana — centro histórico",en:"Old Havana Historic Centre Cuba",built:1519,finished:1600,wiki:"Old_Havana",img:"https://images.unsplash.com/photo-1519197924294-4ba991a11128?w=480&q=80&auto=format&fit=crop"},
     {name:"El Capitolio Havana",en:"El Capitolio Havana Cuba",built:1926,finished:1929,img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
     {name:"Trinidad — kolonialní město",en:"Trinidad Colonial Town Cuba",built:1514,finished:1800,img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
     {name:"Valle de Viñales",en:"Viñales Valley Cuba",built:-999,finished:-999,img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
@@ -2592,7 +2592,7 @@ const LANDMARKS = {
     {name:"Santiago de Cuba katedrála",en:"Santiago de Cuba Cathedral",built:1528,finished:1818,img:"https://images.unsplash.com/photo-1548625149-720754874de6?w=480&q=80&auto=format&fit=crop"},
   ],
   EC:[
-    {name:"Galápágy — ostrovy",en:"Galápagos Islands Ecuador",built:-999,finished:-999,img:"https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=480&q=80&auto=format&fit=crop"},
+    {name:"Galápágy — ostrovy",en:"Galápagos Islands Ecuador",built:-999,finished:-999,wiki:"Galápagos_Islands",img:"https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=480&q=80&auto=format&fit=crop"},
     {name:"Quito — historické centrum",en:"Quito Historic Centre Ecuador",built:1534,finished:1700,img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
     {name:"Cotopaxi — sopka",en:"Cotopaxi Volcano Ecuador",built:-999,finished:-999,img:"https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=480&q=80&auto=format&fit=crop"},
     {name:"Mitad del Mundo — rovník",en:"Mitad del Mundo Monument Ecuador",built:1979,finished:1982,img:"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=480&q=80&auto=format&fit=crop"},
@@ -2643,16 +2643,16 @@ const LANDMARKS = {
 // Fallback (should rarely be needed now)
 
 const LANDMARK_FALLBACK = [
-  {name:"Machu Picchu",en:"Machu Picchu",built:1450,finished:1460,img:"https://images.unsplash.com/photo-1526392060635-9d6019884377?w=480&q=80&auto=format&fit=crop"},
-  {name:"Koloseum",en:"Colosseum",built:70,finished:80,img:"https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=480&q=80&auto=format&fit=crop"},
-  {name:"Eiffelova věž",en:"Eiffel Tower",built:1887,finished:1889,img:"https://images.unsplash.com/photo-1511739001486-6bfe10ce785f?w=480&q=80&auto=format&fit=crop"},
-  {name:"Chrám Angkor Vat",en:"Angkor Wat",built:1113,finished:1150,img:"https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=480&q=80&auto=format&fit=crop"},
-  {name:"Tádž Mahal",en:"Taj Mahal",built:1632,finished:1653,img:"https://images.unsplash.com/photo-1564507592333-c60657eea523?w=480&q=80&auto=format&fit=crop"},
-  {name:"Big Ben",en:"Big Ben",built:1844,finished:1859,img:"https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=480&q=80&auto=format&fit=crop"},
-  {name:"Socha Svobody",en:"Statue of Liberty",built:1875,finished:1886,img:"https://images.unsplash.com/photo-1485738422979-f5c462d49f74?w=480&q=80&auto=format&fit=crop"},
-  {name:"Velká čínská zeď",en:"Great Wall of China",built:-700,finished:1644,img:"https://images.unsplash.com/photo-1508804185872-d7badad00f7d?w=480&q=80&auto=format&fit=crop"},
-  {name:"Pyramidy v Gíze",en:"Pyramids of Giza",built:-2580,finished:-2560,img:"https://images.unsplash.com/photo-1539650116574-75f0f07c8b17?w=480&q=80&auto=format&fit=crop"},
-  {name:"Opera v Sydney",en:"Sydney Opera House",built:1959,finished:1973,img:"https://images.unsplash.com/photo-1523059623039-a9ed027b7fad?w=480&q=80&auto=format&fit=crop"},
+  {name:"Machu Picchu",en:"Machu Picchu",built:1450,finished:1460,wiki:"Machu_Picchu",img:"https://images.unsplash.com/photo-1526392060635-9d6019884377?w=480&q=80&auto=format&fit=crop"},
+  {name:"Koloseum",en:"Colosseum",built:70,finished:80,wiki:"Colosseum",img:"https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=480&q=80&auto=format&fit=crop"},
+  {name:"Eiffelova věž",en:"Eiffel Tower",built:1887,finished:1889,wiki:"Eiffel_Tower",img:"https://images.unsplash.com/photo-1511739001486-6bfe10ce785f?w=480&q=80&auto=format&fit=crop"},
+  {name:"Chrám Angkor Vat",en:"Angkor Wat",built:1113,finished:1150,wiki:"Angkor_Wat",img:"https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=480&q=80&auto=format&fit=crop"},
+  {name:"Tádž Mahal",en:"Taj Mahal",built:1632,finished:1653,wiki:"Taj_Mahal",img:"https://images.unsplash.com/photo-1564507592333-c60657eea523?w=480&q=80&auto=format&fit=crop"},
+  {name:"Big Ben",en:"Big Ben",built:1844,finished:1859,wiki:"Big_Ben",img:"https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=480&q=80&auto=format&fit=crop"},
+  {name:"Socha Svobody",en:"Statue of Liberty",built:1875,finished:1886,wiki:"Statue_of_Liberty",img:"https://images.unsplash.com/photo-1485738422979-f5c462d49f74?w=480&q=80&auto=format&fit=crop"},
+  {name:"Velká čínská zeď",en:"Great Wall of China",built:-700,finished:1644,wiki:"Great_Wall_of_China",img:"https://images.unsplash.com/photo-1508804185872-d7badad00f7d?w=480&q=80&auto=format&fit=crop"},
+  {name:"Pyramidy v Gíze",en:"Pyramids of Giza",built:-2580,finished:-2560,wiki:"Giza_pyramid_complex",img:"https://images.unsplash.com/photo-1539650116574-75f0f07c8b17?w=480&q=80&auto=format&fit=crop"},
+  {name:"Opera v Sydney",en:"Sydney Opera House",built:1959,finished:1973,wiki:"Sydney_Opera_House",img:"https://images.unsplash.com/photo-1523059623039-a9ed027b7fad?w=480&q=80&auto=format&fit=crop"},
 ];
 
 // ── Country founding years & context ────────────────────────────────────────
@@ -3150,65 +3150,55 @@ function buildLandmarkVisual(lm, lmName, countryCode) {
   };
   const col = colors[cKey] || colors.all;
 
-  // Year display
   const yr = lm.built;
   const builtTxt = yr === -999 ? "—" : yr < 0 ? `${Math.abs(yr)} př. n. l.` : String(yr);
   const finTxt = lm.finished === -999 ? "—" : lm.finished < 0 ? `${Math.abs(lm.finished)} př. n. l.` : String(lm.finished);
   const yearLine = (yr === -999 && lm.finished === -999) ? "Přírodní památka" : `${builtTxt}${lm.finished !== -999 && lm.finished !== yr ? " – " + finTxt : ""}`;
   const typeLabelCS = typeInfo.cs;
 
-  // Photo zone — shows real photo when online, falls back to emoji card when offline
-  const photoHtml = lm.img ? `
-    <div id="lm-wrap-${countryCode}" style="position:relative;width:100%;height:210px;background:${col.light};">
-      <!-- Fallback emoji shown behind photo -->
-      <div id="lm-fb-${countryCode}" style="
-        position:absolute;inset:0;
-        display:flex;flex-direction:column;align-items:center;justify-content:center;
-        gap:8px;
-      ">
-        <div style="font-size:3.5rem;filter:drop-shadow(0 4px 8px rgba(0,0,0,0.15))">${typeInfo.icon}</div>
-        <div style="background:${col.accent};color:#fff;padding:3px 14px;border-radius:20px;
-          font-family:'Cinzel',serif;font-size:0.58rem;letter-spacing:1.5px;text-transform:uppercase">${typeLabelCS}</div>
-      </div>
-      <!-- Real photo on top -->
-      <img
-        src="${lm.img}"
-        referrerpolicy="no-referrer"
-        alt="${lmName}"
-        style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity 0.4s"
-        onload="this.style.opacity='1';document.getElementById('lm-fb-${countryCode}').style.display='none'"
-        onerror="this.style.display='none'"
-      >
-    </div>` : `
-    <div style="height:210px;display:flex;flex-direction:column;align-items:center;justify-content:center;
-      gap:10px;background:linear-gradient(145deg,${col.light},${col.bg})">
-      <div style="font-size:4rem">${typeInfo.icon}</div>
-      <div style="background:${col.accent};color:#fff;padding:4px 16px;border-radius:20px;
-        font-family:'Cinzel',serif;font-size:0.6rem;letter-spacing:1.5px;text-transform:uppercase">${typeLabelCS}</div>
-    </div>`;
+  // Unique ID for this landmark card
+  const uid = countryCode + "_" + (lm.wiki || lmName).replace(/[^a-zA-Z0-9]/g,"").substring(0,12);
 
-  return `<div style="
-    width:100%;max-width:460px;
-    border-radius:16px;overflow:hidden;
-    border:2px solid ${col.border};
-    box-shadow:0 4px 20px rgba(0,0,0,0.10);
-    background:${col.bg};
-    font-family:'Inter',sans-serif;
-  ">
+  // Use Wikipedia API if we have wiki title, otherwise fallback to img URL
+  const wikiTitle = lm.wiki || "";
+
+  const photoHtml = `
+    <div id="wrap-${uid}" style="position:relative;width:100%;height:210px;background:${col.light};">
+      <div id="fb-${uid}" style="position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;">
+        <div style="font-size:3.5rem">${typeInfo.icon}</div>
+        <div style="background:${col.accent};color:#fff;padding:3px 14px;border-radius:20px;font-family:'Cinzel',serif;font-size:0.58rem;letter-spacing:1.5px;text-transform:uppercase">${typeLabelCS}</div>
+      </div>
+      <img id="img-${uid}" alt="${lmName}"
+        style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity 0.4s"
+        onload="this.style.opacity='1';var f=document.getElementById('fb-${uid}');if(f)f.style.display='none';"
+        onerror="this.style.display='none';">
+    </div>
+    <script>
+    (function(){
+      var img = document.getElementById('img-${uid}');
+      if(!img) return;
+      ${wikiTitle ? `
+      // Try Wikipedia API first (correct photo for this landmark)
+      var apiUrl = 'https://en.wikipedia.org/api/rest_v1/page/summary/${wikiTitle.replace(/'/g,"\\'")}';
+      fetch(apiUrl, {headers:{'User-Agent':'GeoMindQuiz/1.0'}})
+        .then(function(r){return r.json();})
+        .then(function(d){
+          var src = d && d.thumbnail && d.thumbnail.source;
+          if(src){
+            src = src.replace(/\\/\\d+px-/, '/480px-');
+            img.src = src;
+          } else { img.src = '${lm.img || ""}'; }
+        })
+        .catch(function(){img.src = '${lm.img || ""}';});` : `
+      img.src = '${lm.img || ""}';`}
+    })();
+    <\/script>`;
+
+  return `<div style="width:100%;max-width:460px;border-radius:16px;overflow:hidden;border:2px solid ${col.border};box-shadow:0 4px 20px rgba(0,0,0,0.10);background:${col.bg};font-family:'Inter',sans-serif;">
     ${photoHtml}
-    <!-- Bottom info strip -->
-    <div style="
-      padding:10px 16px;
-      background:${col.bg};
-      border-top:2px solid ${col.border};
-      display:flex;align-items:center;justify-content:space-between;
-    ">
-      <div style="font-size:0.78rem;color:${col.text};font-weight:600;">
-        ${country?.flag || "🌍"} ${country ? (country.cs?.name || country.code) : ""}
-      </div>
-      <div style="font-size:0.72rem;color:${col.text};opacity:0.7">
-        📅 ${yearLine}
-      </div>
+    <div style="padding:10px 16px;background:${col.bg};border-top:2px solid ${col.border};display:flex;align-items:center;justify-content:space-between;">
+      <div style="font-size:0.78rem;color:${col.text};font-weight:600;">${country?.flag || "🌍"} ${country ? (country.cs?.name || country.code) : ""}</div>
+      <div style="font-size:0.72rem;color:${col.text};opacity:0.7">📅 ${yearLine}</div>
     </div>
   </div>`;
 }
@@ -3409,6 +3399,12 @@ function renderQuestion() {
   el.qTitle.textContent  = q.title;
   el.qText.textContent   = q.text;
   el.visualZone.innerHTML = q.visual;
+  // Execute scripts injected via innerHTML (needed for Wikipedia API fetch)
+  el.visualZone.querySelectorAll("script").forEach(old => {
+    const s = document.createElement("script");
+    s.textContent = old.textContent;
+    old.replaceWith(s);
+  });
   fixFlagFallbacks();
 
   if (q.hint) {
