@@ -3330,6 +3330,7 @@ function buildSet(country, setIdx) {
     visual: lmVisual,
     wikiTitle: lm.wiki || "",
     fallbackImg: lm.img || "",
+    searchQuery: (lm.en || lmName).replace(/[()]/g, "").trim(),
     hint: ui.qLmHint(builtStr, lm.finished === -999 ? "—" : finStr),
     ...makeOptions(lmName, wrongLm),
     explanation: ui.expLm(lmName, builtStr, lm.finished === -999 ? "—" : finStr, d.name)
@@ -3354,44 +3355,43 @@ function buildSet(country, setIdx) {
 }
 
 // ── Render Question ─────────────────────────────────────────────────────────
-// ── Load landmark photo (Wikipedia API → fallback img) ───────────────────────
-function loadLandmarkPhoto(wikiTitle, fallbackImg) {
+// ── Load landmark photo via Pixabay API ─────────────────────────────────────
+var PIXABAY_KEY = "55668458-7cd9c0f58880ef106e49d712c";
+var _pixabayCache = {};
+
+function loadLandmarkPhoto(wikiTitle, fallbackImg, searchQuery) {
   var img = document.querySelector(".lm-photo");
   if (!img) return;
 
-  function showFallback() {
-    if (fallbackImg) {
-      img.src = fallbackImg;
-    }
+  var query = searchQuery || wikiTitle.replace(/_/g, " ");
+  if (!query) { if (fallbackImg) img.src = fallbackImg; return; }
+
+  // Check cache first
+  if (_pixabayCache[query]) {
+    img.src = _pixabayCache[query];
+    return;
   }
 
-  if (wikiTitle) {
-    // Use Wikipedia REST API - works from any domain including GitHub Pages
-    var apiUrl = "https://en.wikipedia.org/api/rest_v1/page/summary/" + encodeURIComponent(wikiTitle);
-    fetch(apiUrl, {
-      headers: { "Accept": "application/json" },
-      referrerPolicy: "no-referrer"
-    })
-    .then(function(r) {
-      if (!r.ok) throw new Error("HTTP " + r.status);
-      return r.json();
-    })
+  var apiUrl = "https://pixabay.com/api/?key=" + PIXABAY_KEY
+    + "&q=" + encodeURIComponent(query)
+    + "&image_type=photo&orientation=horizontal&per_page=3&safesearch=true";
+
+  fetch(apiUrl)
+    .then(function(r) { return r.json(); })
     .then(function(d) {
-      var src = d && d.thumbnail && d.thumbnail.source;
-      if (src) {
-        src = src.replace(/\/\d+px-/, "/480px-");
-        img.referrerPolicy = "no-referrer";
+      var hits = d && d.hits;
+      if (hits && hits.length > 0) {
+        // Use webformatURL - Pixabay CDN allows hotlinking
+        var src = hits[0].webformatURL;
+        _pixabayCache[query] = src;
         img.src = src;
-      } else {
-        showFallback();
+      } else if (fallbackImg) {
+        img.src = fallbackImg;
       }
     })
     .catch(function() {
-      showFallback();
+      if (fallbackImg) img.src = fallbackImg;
     });
-  } else {
-    showFallback();
-  }
 }
 
 
@@ -3418,7 +3418,7 @@ function renderQuestion() {
   // Use setTimeout to ensure DOM is ready after innerHTML update
   if (q.category === "landmark") {
     setTimeout(function() {
-      loadLandmarkPhoto(q.wikiTitle || "", q.fallbackImg || "");
+      loadLandmarkPhoto(q.wikiTitle || "", q.fallbackImg || "", q.searchQuery || "");
     }, 50);
   }
 

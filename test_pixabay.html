@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset="UTF-8"><title>Test Pixabay API</title></head>
+<body>
+<h2>Test Pixabay API pro fotky</h2>
+<p id="status">Testuji...</p>
+<div id="results"></div>
+<script>
+var KEY = "55668458-7cd9c0f58880ef106e49d712c";
+var tests = [
+  "Helsinki Cathedral Finland",
+  "Colosseum Rome",
+  "Eiffel Tower Paris",
+  "Bojnice Castle Slovakia",
+  "Knin Fortress Croatia",
+  "Trevi Fountain Rome",
+  "Machu Picchu Peru",
+  "Maasai Mara Kenya safari",
+  "Plitvice Lakes Croatia",
+  "Dubrovnik Old Town Croatia",
+];
+
+var div = document.getElementById("results");
+
+function testNext(i) {
+  if (i >= tests.length) {
+    document.getElementById("status").textContent = "Hotovo!";
+    return;
+  }
+  var q = tests[i];
+  var url = "https://pixabay.com/api/?key=" + KEY + "&q=" + encodeURIComponent(q) + "&image_type=photo&per_page=3&safesearch=true";
+  
+  fetch(url)
+    .then(function(r) { return r.json(); })
+    .then(function(d) {
+      var hit = d.hits && d.hits[0];
+      var row = document.createElement("div");
+      row.style = "margin:8px;padding:8px;border:1px solid #ccc;display:flex;gap:10px;align-items:center";
+      if (hit) {
+        row.style.borderColor = "green";
+        row.innerHTML = '<b style="color:green">✅ ' + q + '</b>';
+        var img = document.createElement("img");
+        img.src = hit.webformatURL;
+        img.style = "max-width:200px;max-height:130px";
+        img.onerror = function() { this.style.display="none"; row.style.borderColor="orange"; row.querySelector("b").textContent += " (img load fail)"; };
+        row.appendChild(img);
+      } else {
+        row.style.borderColor = "red";
+        row.innerHTML = '<b style="color:red">❌ ' + q + ' - žádné výsledky</b>';
+      }
+      div.appendChild(row);
+      testNext(i + 1);
+    })
+    .catch(function(e) {
+      var row = document.createElement("div");
+      row.style = "margin:8px;padding:8px;border:1px solid red";
+      row.innerHTML = '<b style="color:red">❌ ' + q + ' - CHYBA: ' + e.message + '</b>';
+      div.appendChild(row);
+      testNext(i + 1);
+    });
+}
+
+testNext(0);
+</script>
+</body>
+</html>
