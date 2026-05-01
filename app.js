@@ -3362,22 +3362,24 @@ function loadLandmarkPhoto(wikiTitle, fallbackImg) {
   if (wikiTitle) {
     const apiUrl = "https://en.wikipedia.org/api/rest_v1/page/summary/" + encodeURIComponent(wikiTitle);
     fetch(apiUrl)
-      .then(r => r.json())
-      .then(d => {
-        let src = d && d.thumbnail && d.thumbnail.source;
+      .then(function(r) { return r.json(); })
+      .then(function(d) {
+        var src = d && d.thumbnail && d.thumbnail.source;
         if (src) {
-          // Get larger version
           src = src.replace(/\/\d+px-/, "/480px-");
           img.src = src;
         } else if (fallbackImg) {
           img.src = fallbackImg;
         }
       })
-      .catch(() => { if (fallbackImg) img.src = fallbackImg; });
+      .catch(function() {
+        if (fallbackImg) img.src = fallbackImg;
+      });
   } else if (fallbackImg) {
     img.src = fallbackImg;
   }
 }
+
 
 function renderQuestion() {
   const q = state.questions[state.index];
@@ -3399,8 +3401,11 @@ function renderQuestion() {
   el.visualZone.innerHTML = q.visual;
   fixFlagFallbacks();
   // Load landmark photo via Wikipedia API (works from GitHub Pages - proper CORS)
+  // Use setTimeout to ensure DOM is ready after innerHTML update
   if (q.category === "landmark") {
-    loadLandmarkPhoto(q.wikiTitle || "", q.fallbackImg || "");
+    setTimeout(function() {
+      loadLandmarkPhoto(q.wikiTitle || "", q.fallbackImg || "");
+    }, 50);
   }
 
   if (q.hint) {
