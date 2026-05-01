@@ -3161,7 +3161,7 @@ function buildLandmarkVisual(lm, lmName, countryCode) {
         <div style="font-size:3.5rem">${typeInfo.icon}</div>
         <div style="background:${col.accent};color:#fff;padding:3px 14px;border-radius:20px;font-family:'Cinzel',serif;font-size:0.58rem;letter-spacing:1.5px;text-transform:uppercase">${typeInfo.cs}</div>
       </div>
-      <img class="lm-photo" alt="${lmName}" crossorigin="anonymous"
+      <img class="lm-photo" alt="${lmName}" crossorigin="anonymous" referrerpolicy="no-referrer"
         style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity 0.4s"
         onload="this.style.opacity='1';var f=this.closest('div').querySelector('.lm-fallback');if(f)f.style.display='none';"
         onerror="this.style.display='none';">
@@ -3369,7 +3369,8 @@ function loadLandmarkPhoto(wikiTitle, fallbackImg) {
     // Use Wikipedia REST API - works from any domain including GitHub Pages
     var apiUrl = "https://en.wikipedia.org/api/rest_v1/page/summary/" + encodeURIComponent(wikiTitle);
     fetch(apiUrl, {
-      headers: { "Accept": "application/json" }
+      headers: { "Accept": "application/json" },
+      referrerPolicy: "no-referrer"
     })
     .then(function(r) {
       if (!r.ok) throw new Error("HTTP " + r.status);
@@ -3378,8 +3379,8 @@ function loadLandmarkPhoto(wikiTitle, fallbackImg) {
     .then(function(d) {
       var src = d && d.thumbnail && d.thumbnail.source;
       if (src) {
-        // Get 480px version
         src = src.replace(/\/\d+px-/, "/480px-");
+        img.referrerPolicy = "no-referrer";
         img.src = src;
       } else {
         showFallback();

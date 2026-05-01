@@ -34,7 +34,7 @@ async function test() {
           Status: ${r.status}<br>
           ${src ? "Foto OK ✅" : "Žádná fotka ❌"}
         </div>
-        ${src ? `<img src="${src}" crossorigin="anonymous" style="max-width:200px;max-height:150px;border:2px solid ${src ? "green" : "red"}" onerror="this.style.border='2px solid red';this.nextSibling.textContent=' ❌ BLOCKED'"><span></span>` : "<span style=color:red>Žádné URL</span>"}
+        ${src ? `<img src="${src}" referrerpolicy="no-referrer" crossorigin="anonymous" style="max-width:200px;max-height:150px;border:2px solid ${src ? "green" : "red"}" onerror="this.style.border='2px solid red';this.nextSibling.textContent=' ❌ BLOCKED'"><span></span>` : "<span style=color:red>Žádné URL</span>"}
       </div>`;
     } catch(e) {
       div.innerHTML += `<div style="color:red"><b>${t.name}</b>: CHYBA - ${e.message}</div>`;
