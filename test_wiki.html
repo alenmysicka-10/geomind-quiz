@@ -13,28 +13,34 @@ const tests = [
   {name: "Eiffel Tower", wiki: "Eiffel_Tower"},
   {name: "Bojnice Castle", wiki: "Bojnice_Castle"},
   {name: "Knin Fortress", wiki: "Knin_Fortress"},
+  {name: "Trevi Fountain", wiki: "Trevi_Fountain"},
+  {name: "Machu Picchu", wiki: "Machu_Picchu"},
 ];
 
 async function test() {
-  const div = document.getElementById('results');
+  const div = document.getElementById("results");
   for (const t of tests) {
     try {
-      const r = await fetch(`https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(t.wiki)}`, {
+      const r = await fetch("https://en.wikipedia.org/api/rest_v1/page/summary/" + encodeURIComponent(t.wiki), {
         headers: {Accept: "application/json"}
       });
       const d = await r.json();
-      const thumb = d.thumbnail?.source || "NO THUMBNAIL";
+      let src = d.thumbnail && d.thumbnail.source;
+      if (src) src = src.replace(/\/\d+px-/, "/480px-");
       
-      div.innerHTML += `<div style="margin:10px;border:1px solid #ccc;padding:10px">
-        <b>${t.name}</b>: ${r.status}<br>
-        Thumbnail: ${thumb.substring(0,80)}<br>
-        ${thumb !== "NO THUMBNAIL" ? `<img src="${thumb.replace(/\/\d+px-/, '/320px-')}" style="max-width:300px;max-height:200px">` : '❌ Žádná fotka'}
+      div.innerHTML += `<div style="margin:10px;border:1px solid #ccc;padding:10px;display:flex;gap:15px;align-items:center">
+        <div>
+          <b>${t.name}</b><br>
+          Status: ${r.status}<br>
+          ${src ? "Foto OK ✅" : "Žádná fotka ❌"}
+        </div>
+        ${src ? `<img src="${src}" crossorigin="anonymous" style="max-width:200px;max-height:150px;border:2px solid ${src ? "green" : "red"}" onerror="this.style.border='2px solid red';this.nextSibling.textContent=' ❌ BLOCKED'"><span></span>` : "<span style=color:red>Žádné URL</span>"}
       </div>`;
     } catch(e) {
-      div.innerHTML += `<div style="color:red"><b>${t.name}</b>: ERROR - ${e.message}</div>`;
+      div.innerHTML += `<div style="color:red"><b>${t.name}</b>: CHYBA - ${e.message}</div>`;
     }
   }
-  document.getElementById('status').textContent = 'Hotovo!';
+  document.getElementById("status").textContent = "Hotovo!";
 }
 test();
 </script>
